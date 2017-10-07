@@ -1,0 +1,90 @@
+Equip //Skins at the end of the name
+
+									<Object type="0x6535" id="Chinese Dress Trickster Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>112</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Fashionable AND dangerous.</Description>
+    <Activate skinType="25908">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Chinese Dress Trickster Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x6537" id="Penguin Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>113</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Looks a lot less cute once its sword is in your eye.</Description>
+    <Activate skinType="25910">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Penguin Knight Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x6539" id="Frimar Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>114</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Smaller than the real Frimar, but no less dangerous.</Description>
+    <Activate skinType="25912">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Frimar Knight Skin</DisplayId>
+  </Object>
+  
+
+
+									Skins //Skins not at the end of the name
+
+<Object type="0x6534" id="Chinese Dress Trickster">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>112</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Chinese Dress Trickster</DisplayId>
+  </Object>
+  
+  <Object type="0x6536" id="Penguin Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>113</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect/>
+    <DisplayId>Penguin Knight</DisplayId>
+  </Object>
+  
+  <Object type="0x6538" id="Frimar Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>114</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect/>
+    <DisplayId>Frimar Knight</DisplayId>
+  </Object>
+
+
+
+

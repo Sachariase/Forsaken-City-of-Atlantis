@@ -1,0 +1,175 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using wServer.realm;
+using wServer.logic.behaviors;
+using wServer.logic.loot;
+using wServer.logic.transitions;
+
+namespace wServer.logic
+{
+    partial class BehaviorDb
+    {
+        _ QuestChest = () => Behav()
+            .Init("Quest Chest",
+                new State(
+                    new State("Spawned",
+                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+                         new Flash(0xFFFFFF, 0.5, 3),
+                        new TimedTransition(2100, "Vulnerable")
+                        ),
+                    new State("Vulnerable"
+                        )
+                    ),
+                new Threshold(0.18,
+                    new ItemLoot("Holy Water", 0.5),
+                    new TierLoot(4, ItemType.Ring, 0.025),
+                    new TierLoot(4, ItemType.Ability, 0.1),
+                    new ItemLoot("Small Jester Argyle Cloth", 0.05),
+                    new ItemLoot("Large Jester Argyle Cloth", 0.05),
+                    new TierLoot(10, ItemType.Weapon, 0.045),
+                    new TierLoot(11, ItemType.Armor, 0.05),
+                    new ItemLoot("Snake Skin Armor", 0.1),
+                    new ItemLoot("Snake Skin Shield", 0.1),
+                    new ItemLoot("Experimental Ring", 0.01),
+                    new ItemLoot("Etherite Dagger", 0.01),
+                    new ItemLoot("Ghastly Drape", 0.01),
+                    new ItemLoot("Mantle of Skuld", 0.01),
+                    new ItemLoot("Spectral Ring of Horrors", 0.01),
+                    new ItemLoot("St. Abraham's Wand", 0.01),
+                    new ItemLoot("Chasuble of Holy Light", 0.01),
+                    new ItemLoot("Ring of Divine Faith", 0.01),
+                    new ItemLoot("Sprite Wand", 0.01),
+                    new ItemLoot("Amulet of Resurrection", 0.01),
+                    new ItemLoot("Snake Eye Ring", 0.1),
+                    new ItemLoot("Potion of Attack", 0.15),
+                    new ItemLoot("Potion of Defense", 0.15),
+                    new ItemLoot("Potion of Speed", 0.15),
+                    new ItemLoot("Potion of Dexterity", 0.15),
+                    new ItemLoot("Potion of Vitality", 0.15),
+                    new ItemLoot("Potion of Wisdom", 0.15),
+                    new ItemLoot("Potion of Life", 0.15),
+                    new ItemLoot("Potion of Mana", 0.15),
+                    new ItemLoot("Mini Stheno Skin", 0.02),
+                    new ItemLoot("Puppet Master Skin", 0.02),
+                    new ItemLoot("Jester Skin", 0.02),
+                    new ItemLoot("Slurp Knight Skin", 0.02),
+                    new ItemLoot("Wand of the Bulwark", 0.005),
+                    new ItemLoot("Staff of Extreme Prejudice", 0.005),
+                    new ItemLoot("Cloak of the Planewalker", 0.005),
+                    new ItemLoot("Demon Blade", 0.01),
+                    new ItemLoot("Doom Bow", 0.012),
+                    new ItemLoot("Void Blade", 0.005),
+                    new ItemLoot("Murky Toxin", 0.005),
+                    new ItemLoot("Conducting Wand", 0.005),
+                    new ItemLoot("Robe of the Mad Scientist", 0.005),
+                    new ItemLoot("Scepter of Fulmination", 0.005),
+                    new ItemLoot("Harlequin Armor", 0.014),
+                    new ItemLoot("Prism of Dancing Swords", 0.03),
+                    new ItemLoot("Plague Poison", 0.01),
+                    new ItemLoot("Resurrected Warrior's Armor", 0.01),
+                    new ItemLoot("Tome of Purification", 0.001)
+                    )
+                    )
+
+            .Init("Epic Quest Chest",
+                new State(
+                    new State("Spawned",
+                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+                         new Flash(0xFFFFFF, 0.5, 3),
+                        new TimedTransition(2100, "Vulnerable")
+                        ),
+                    new State("Vulnerable"
+                        )
+                    ),
+                new MostDamagers(3,
+                    new ItemLoot("Potion of Life", 0.5)
+                ),
+                new MostDamagers(1,
+                    new ItemLoot("Potion of Mana", 0.5)
+                ),
+                new Threshold(0.18,
+                    new ItemLoot("Small Midnight Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Small Red Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Small Green Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Small Blue Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Small Ivory Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Large Midnight Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Large Red Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Large Green Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Large Blue Dragon Scale Cloth", 0.05),
+                    new ItemLoot("Large Ivory Dragon Scale Cloth", 0.05),
+                    new EggLoot(EggRarity.Rare, 0.01),
+                    new TierLoot(11, ItemType.Weapon, 0.06),
+                    new TierLoot(12, ItemType.Armor, 0.06),
+                    new TierLoot(5, ItemType.Ability, 0.07),
+                    new TierLoot(5, ItemType.Ring, 0.06),
+                    new ItemLoot("Coral Silk Armor", 0.04),
+                    new ItemLoot("Coral Ring", 0.04),
+                    new ItemLoot("Scepter of Geb", 0.032),
+                    new ItemLoot("Book of Geb", 0.032),
+                    new ItemLoot("Shendyt of Geb", 0.032),
+                    new ItemLoot("Geb's Ring of Wisdom", 0.032),
+                    new ItemLoot("Spectral Cloth Armor", 0.012),
+                    new ItemLoot("Captain's Ring", 0.012),
+                    new ItemLoot("Zaarvox's Heart", 0.032),
+                    new ItemLoot("Amulet of Drakefyre", 0.032),
+                    new ItemLoot("Yellow Bee Armor", 0.032),
+                    new ItemLoot("Red Bee Armor", 0.032),
+                    new ItemLoot("Blue Bee Armor", 0.032),
+                    new ItemLoot("Nectar Crossfire", 0.032),
+                    new ItemLoot("Honeytomb Snare", 0.032),
+                    new ItemLoot("Apiary Armor", 0.032),
+                    new ItemLoot("Honey Circlet", 0.032),
+                    new ItemLoot("Sentient Staff", 0.032),
+                    new ItemLoot("Ancient Spell: Pierce", 0.032),
+                    new ItemLoot("The Robe of Twilight", 0.032),
+                    new ItemLoot("The Forgotten Ring", 0.032),
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("Potion of Attack", 0.15),
+                    new ItemLoot("Potion of Defense", 0.15),
+                    new ItemLoot("Potion of Speed", 0.15),
+                    new ItemLoot("Potion of Dexterity", 0.15),
+                    new ItemLoot("Potion of Vitality", 0.15),
+                    new ItemLoot("Potion of Wisdom", 0.15),
+                    new ItemLoot("Potion of Life", 0.15),
+                    new ItemLoot("Potion of Mana", 0.15),
+                    //new ItemLoot("Greater Potion of Dexterity", 0.10),
+                    new ItemLoot("Mini Geb Skin", 0.02),
+                    new ItemLoot("Mini Nut Archer Skin", 0.02),
+                    new ItemLoot("Coral Bow", 0.01),
+                    new ItemLoot("Coral Venom Trap", 0.03),
+                    new ItemLoot("Ring of the Pyramid", 0.05),
+                    new ItemLoot("Ring of the Sphinx", 0.05),
+                    new ItemLoot("Ring of the Nile", 0.048),
+                    new ItemLoot("Tome of Holy Protection", 0.025),
+                    new ItemLoot("Kageboshi", 0.032),
+                    new ItemLoot("Wand of the Fallen", 0.032),
+                    new ItemLoot("Spirit Dagger", 0.012),
+                    new ItemLoot("Ghostly Prism", 0.012),
+                    new ItemLoot("Indomptable", 0.032),
+                    new ItemLoot("Helm of Draconic Dominance", 0.032),
+                    new ItemLoot("Annoying Firecracker Katana", 0.01),
+                    new ItemLoot("Fire Dragon Battle Armor", 0.01),
+                    new ItemLoot("Water Dragon Silk Robe", 0.008),
+                    new ItemLoot("Leaf Dragon Hide Armor", 0.008),
+                    new ItemLoot("Midnight Star", 0.008),
+                    new ItemLoot("Doku No Ken", 0.007),
+                    new ItemLoot("Pirate King's Cutlass", 0.024),
+                    new ItemLoot("Leaf Bow", 0.007),
+                    new ItemLoot("Staff of Esben", 0.03),
+                    new ItemLoot("Skullish Remains of Esben", 0.03),
+                    new ItemLoot("Hivemaster Helm", 0.01),
+                    new ItemLoot("Spiteful Scutum", 0.01),
+                    new ItemLoot("Skull of Endless Torment", 0.01),
+                    new ItemLoot("Thousand Shot", 0.01),
+                    new ItemLoot("Ancient Stone Sword", 0.02),
+                    new ItemLoot("Bracer of the Guardian", 0.008),
+                    new ItemLoot("The Twilight Gemstone", 0.007),
+                    new ItemLoot("The Forgotten Crown", 0.006)
+                    )
+            );
+
+    }
+}

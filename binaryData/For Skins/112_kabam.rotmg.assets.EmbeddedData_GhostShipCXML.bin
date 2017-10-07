@@ -1,0 +1,5257 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<Objects>
+
+
+
+                           <Object type="0x0e56" id="Masked Party God">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x40</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x41</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x42</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="3">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x3f</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/default_hit</HitSound>
+      <DeathSound>monster/dark_elves_death</DeathSound>
+      <Size>140</Size>
+      <ShadowSize>70</ShadowSize>
+      <MaxHitPoints>30000</MaxHitPoints>
+      <Defense>10</Defense>
+      <DisplayId>{ghostShip.Masked_Party_God}</DisplayId>
+   </Object>
+        <Object type="0xcbde" id="Divine Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xfc</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>{equip.Also_used_for_feed.}</Description>
+      <Rarity>Divine</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <BagType>3</BagType>
+      <feedPower>100000000</feedPower>
+      <DisplayId>{equip.Divine_Egg}</DisplayId>
+   </Object>
+   <Object type="0x7300" id="Potion of Maxy">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf6</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Tier>2</Tier>
+    <Description>A potion who will max you!</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="20" amount="1000">IncrementStat</Activate>
+    <Activate stat="21" amount="1000">IncrementStat</Activate>
+    <Activate stat="22" amount="1000">IncrementStat</Activate>
+    <Activate stat="26" amount="1000">IncrementStat</Activate>
+    <Activate stat="27" amount="1000">IncrementStat</Activate>
+    <Activate stat="28" amount="1000">IncrementStat</Activate>
+    <Activate stat="0" amount="1000">IncrementStat</Activate>
+    <Activate stat="3" amount="1000">IncrementStat</Activate>
+    <Consumable/>
+    <Potion/>
+    <BagType>5</BagType>
+    <feedPower>5000</feedPower>
+    <DisplayId>Potion of Maxy</DisplayId>
+  </Object>
+   <Object type="0xbae" id="Ring of Decades">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x564</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Tier>6</Tier>
+<Description>
+{equip.Cut_from_a_fallen_star,_a_deep_purple_emanating_an_unearthl}
+</Description>
+<ActivateOnEquip stat="0" amount="190">IncrementStat</ActivateOnEquip>
+<BagType>4</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>350</feedPower>
+<DisplayId>{equip.Ring_of_Decades}</DisplayId>
+</Object>
+  <Object type="0x7fd4" id="Frimarra">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>d2LofiObjEmbed</File>
+<Index>0x30</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+{equip.ItAPOSs_said_that_this_necklace_was_created_to_protect_the_}
+</Description>
+<ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>900</feedPower>
+<Soulbound/>
+<DisplayId>{equip.Frimarra}</DisplayId>
+</Object>
+  <Object type="0x7fd3" id="Ring of the Northern Light">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>d2LofiObjEmbed</File>
+<Index>0x20</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+{equip.A_mysterious_light_emanates_from_the_stone.}
+</Description>
+<ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="0" amount="60">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="3" amount="60">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>900</feedPower>
+<Soulbound/>
+<DisplayId>{equip.Ring_of_the_Northern_Light}</DisplayId>
+</Object>
+  <Object type="0x7fd2" id="Enchanted Ice Shard">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>d2LofiObjEmbed</File>
+<Index>0x0c</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+{equip.The_ice_this_item_is_made_of_doesnAPOSt_seem_to_melt.}
+</Description>
+<ActivateOnEquip stat="27" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="3" amount="100">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+<DisplayId>{equip.Enchanted_Ice_Shard}</DisplayId>
+</Object>
+  <Object type="0x1413" id="Freezing Quiver">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>d3LofiObjEmbed</File>
+<Index>0x49</Index>
+</Texture>
+<SlotType>15</SlotType>
+<Description>
+{equip.Corrupted_by_creatures_of_the_frost_realms,_its_arrows_will}
+</Description>
+<Sound>spell/fire_spray</Sound>
+<Projectile>
+<ObjectId>Frozen Arrow</ObjectId>
+<Speed>160</Speed>
+<MinDamage>180</MinDamage>
+<MaxDamage>260</MaxDamage>
+<LifetimeMS>600</LifetimeMS>
+<Size>120</Size>
+<ConditionEffect duration="5">Slowed</ConditionEffect>
+<PassesCover/>
+<MultiHit/>
+<ParticleTrail lifetimeMS="150">0x33ccff</ParticleTrail>
+</Projectile>
+<ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+<ConditionEffect duration="5">Slowed</ConditionEffect>
+<Usable/>
+<NumProjectiles>3</NumProjectiles>
+<ArcGap>8</ArcGap>
+<BagType>4</BagType>
+<FameBonus>5</FameBonus>
+<MpCost>90</MpCost>
+<Activate>Shoot</Activate>
+<feedPower>700</feedPower>
+<Soulbound/>
+<DisplayId>{equip.Freezing_Quiver}</DisplayId>
+</Object>
+  <Object type="0xa237" id="Frozen Arrow">
+<Class>Projectile</Class>
+<Texture>
+<File>d3LofiObjEmbed</File>
+<Index>0x4a</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+  <Object type="0xa236" id="Frozen Wand Icicle">
+<Class>Projectile</Class>
+<Texture>
+<File>d3LofiObjEmbed</File>
+<Index>0x48</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+  <Object type="0x1412" id="Frozen Wand">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>d3LofiObjEmbed</File>
+<Index>0x47</Index>
+</Texture>
+<SlotType>8</SlotType>
+<Description>
+{equip.From_the_realms_of_frost,_this_wandAPOSs_ice_magic_penetrat}
+</Description>
+<RateOfFire>1</RateOfFire>
+<Sound>weapon/wand_of_death</Sound>
+<Projectile>
+<ObjectId>Frozen Wand Icicle</ObjectId>
+<Speed>120</Speed>
+<LifetimeMS>750</LifetimeMS>
+<MinDamage>75</MinDamage>
+<MaxDamage>95</MaxDamage>
+<ArmorPiercing/>
+</Projectile>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<OldSound>magicShoot</OldSound>
+<feedPower>500</feedPower>
+<Soulbound/>
+<DisplayId>{equip.Frozen_Wand}</DisplayId>
+</Object>
+     <Object type="0xa230" id="Scutum Wave">
+<Class>Projectile</Class>
+<Texture>
+<File>d3LofiObjEmbed</File>
+<Index>0x2e</Index>
+</Texture>
+<AngleCorrection>3</AngleCorrection>
+</Object>
+  <Object type="0x716e" id="Void Star">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x56f</Index>
+</Texture>
+<Rotation>80</Rotation>
+</Object>
+     <Object type="0x716c" id="Sewer Cocktail">
+<Class>Equipment</Class>
+<Item/>
+<DisplayId>{equip.Sewer_Cocktail}</DisplayId>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x570</Index>
+</Texture>
+<SlotType>18</SlotType>
+<Description>
+{equip.Its_irregular_shape_makes_it_hard_to_get_a_grip_on_this_bur}
+</Description>
+<Usable/>
+<BagType>6</BagType>
+<FameBonus>6</FameBonus>
+<MpCost>135</MpCost>
+<Activate radius="5.5" totalDamage="1400" duration="8">PoisonGrenade</Activate>
+<Activate effect="Dazed" duration="3">ConditionEffectSelf</Activate>
+<feedPower>750</feedPower>
+<Soulbound/>
+</Object>
+<Object type="0x716d" id="Void Blade">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x56e</Index>
+</Texture>
+<SlotType>24</SlotType>
+<Description>
+{equip.An_astronomically_heavy_katana._It_is_forged_from_dark_matt}
+</Description>
+<RateOfFire>0.3</RateOfFire>
+<Sound>weapon/long_sword</Sound>
+<Projectile>
+<ObjectId>Void Star</ObjectId>
+<Speed>0</Speed>
+<MinDamage>600</MinDamage>
+<MaxDamage>700</MaxDamage>
+<LifetimeMS>4500</LifetimeMS>
+<MultiHit/>
+</Projectile>
+<ActivateOnEquip stat="28" amount="-5">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>6</FameBonus>
+<OldSound>bladeSwing</OldSound>
+<DisplayId>{equip.Void_Blade}</DisplayId>
+<feedPower>750</feedPower>
+<Soulbound/>
+</Object>
+<Object type="0x7170" id="Murky Toxin">
+<Class>Equipment</Class>
+<Item/>
+<DisplayId>{equip.Murky_Toxin}</DisplayId>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x571</Index>
+</Texture>
+<SlotType>18</SlotType>
+<Description>
+{equip.A_deadly_substance_concocted_with_ingredients_found_in_the_}
+</Description>
+<Usable/>
+<BagType>6</BagType>
+<FameBonus>6</FameBonus>
+<MpCost>125</MpCost>
+<ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+<Activate radius="2" totalDamage="900" duration="4">PoisonGrenade</Activate>
+<Activate radius="4" totalDamage="300" duration="4">PoisonGrenade</Activate>
+<feedPower>800</feedPower>
+<Soulbound/>
+</Object>
+<Object type="0x11c" id="TH Honey bottle">
+<DisplayId>{equip.TH_Honey_bottle}</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x58e</Index>
+</Texture>
+<SlotType>10</SlotType>
+<Description>{equip.A_yummy_treat.}</Description>
+<Sound>use_key</Sound>
+<Consumable/>
+<Activate effect="Healing" duration="10">ConditionEffectSelf</Activate>
+</Object>
+<Object type="0x139a" id="Honey Scepter">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x597</Index>
+</Texture>
+<SlotType>23</SlotType>
+<Description>
+{equip.Stolen_from_the_Queen_Bee_herself,_this_scepter_possesses_t}
+</Description>
+<Sound>spell/fire_spray</Sound>
+<Usable/>
+<BagType>4</BagType>
+<FameBonus>2</FameBonus>
+<MpCost>90</MpCost>
+<Activate totalDamage="100" maxTargets="10" color="0xffdf00">Lightning</Activate>
+<feedPower>450</feedPower>
+<DisplayId>{equip.Honey_Scepter}</DisplayId>
+<Soulbound/>
+</Object>
+<Object type="0x132" id="Orb of Sweet Demise">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj3</File>
+<Index>0x598</Index>
+</Texture>
+<SlotType>21</SlotType>
+<Description>
+{equip.A_magical_honeycomb_that_was_once_crucial_in_repelling_an_a}
+</Description>
+<Usable/>
+<BagType>4</BagType>
+<FameBonus>2</FameBonus>
+<MpCost>90</MpCost>
+<Activate effect="Slowed" duration="5" range="2" color="0xffdf00" target="enemy" center="mouse" visualEffect="8" useWisMod="false">GenericActivate</Activate>
+<Activate duration="3">StasisBlast</Activate>
+<feedPower>450</feedPower>
+<DisplayId>{equip.Orb_of_Sweet_Demise}</DisplayId>
+<Soulbound/>
+</Object>
+<Object type="0x0d43" id="Spiteful Scutum">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>d3LofiObjEmbed</File>
+<Index>0x2d</Index>
+</Texture>
+<SlotType>5</SlotType>
+<Description>
+{equip.A_shield_from_a_place_beyond_the_gates_of_war_and_peace.}
+</Description>
+<Sound>spell/fire_spray</Sound>
+<Projectile>
+<ObjectId>Scutum Wave</ObjectId>
+<Speed>140</Speed>
+<MinDamage>400</MinDamage>
+<MaxDamage>600</MaxDamage>
+<LifetimeMS>250</LifetimeMS>
+<Amplitude>0.2</Amplitude>
+<Frequency>0.5</Frequency>
+<Size>120</Size>
+<ConditionEffect duration="4">Stunned</ConditionEffect>
+<MultiHit/>
+<PassesCover/>
+<ArmorPiercing/>
+<ParticleTrail lifetimeMS="250">0xb40e0e</ParticleTrail>
+</Projectile>
+<ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
+<ConditionEffect duration="4">Stunned</ConditionEffect>
+<Usable/>
+<ArcGap>8</ArcGap>
+<BagType>6</BagType>
+<FameBonus>6</FameBonus>
+<MpCost>90</MpCost>
+<Activate>Shoot</Activate>
+<Cooldown>1.5</Cooldown>
+<NumProjectiles>2</NumProjectiles>
+<feedPower>800</feedPower>
+<Soulbound/>
+<DisplayId>{equip.Spiteful_Scutum}</DisplayId>
+</Object>
+  <Object type="0xc400" id="shtrs Wooden Gate 2">
+    <Class>Wall</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x44f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x450</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x451</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x452</Index>
+         </Texture>
+      </RandomTexture>
+    <Top>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x574</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+ <Static/>
+    <DisplayId>shtrs Wooden Gate 2</DisplayId>
+  </Object>
+  <Object type="0xc401" id="shtrs Wooden Gate 3">
+    <Class>Wall</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x44f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x450</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x451</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x452</Index>
+         </Texture>
+      </RandomTexture>
+    <Top>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x574</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+ <Static/>
+    <DisplayId>shtrs Wooden Gate 3</DisplayId>
+  </Object>
+   <Object type="0xc402" id="shtrs Bridge Closer2">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs bridge closer 2}</DisplayId>
+   </Object>
+   <Object type="0xc403" id="shtrs Bridge Closer3">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs bridge closer 3</DisplayId>
+   </Object>
+   <Object type="0xc404" id="shtrs Bridge Closer4">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs bridge closer 4</DisplayId>
+   </Object>
+   <Object type="0xc405" id="shtrs Spawn Bridge 2">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 2}</DisplayId>
+   </Object>
+   <Object type="0xc406" id="shtrs Spawn Bridge 3">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 3}</DisplayId>
+   </Object>
+   <Object type="0xc407" id="shtrs Spawn Bridge 4">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 4}</DisplayId>
+   </Object>
+   <Object type="0xc408" id="shtrs Spawn Bridge 5">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 5}</DisplayId>
+   </Object>
+   <Object type="0xc409" id="shtrs Spawn Bridge 6">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 6}</DisplayId>
+   </Object>
+   <Object type="0xc410" id="shtrs Spawn Bridge 7">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 7}</DisplayId>
+   </Object>
+   <Object type="0xc411" id="shtrs Spawn Bridge 8">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{shtrs spawn bridge 8</DisplayId>
+   </Object>
+   <Object type="0xc412" id="shtrs Chest Spawner 1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>shtrs Chest Spawner 1</DisplayId>
+   </Object>
+   <Object type="0xc413" id="shtrs Chest Spawner 2">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>shtrs Chest Spawner 2</DisplayId>
+   </Object>
+   <Object type="0xc414" id="shtrs Chest Spawner 3">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>shtrs Chest Spawner 3</DisplayId>
+   </Object>
+     <Object type="0x136b" id="Big Reaper Minion">
+      <DisplayId>Big Reaper Minion</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>92</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <Size>75</Size>
+      <ShadowSize>25</ShadowSize>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Defense>25</Defense>
+      <XpMult>0.0</XpMult>
+      <Projectile id="0">
+         <ObjectId>Armor Pierce Bullet</ObjectId>
+         <Speed>20</Speed>
+         <MinDamage>70</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+      </Projectile>
+   </Object>
+  <Object type="0x136a" id="Reaper Minion">
+    <DisplayId>Reaper Minion</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>90</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>50</Size>
+    <ShadowSize>25</ShadowSize>
+    <MaxHitPoints>3600</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <Projectile id="0">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>20</Speed>
+      <MinDamage>13</MinDamage>
+      <MaxDamage>13</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+      <ConditionEffect duration="0.5">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x136c" id="Small Reaper Minion">
+    <DisplayId>Reaper Minion</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>90</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>50</Size>
+    <ShadowSize>25</ShadowSize>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.0</XpMult>
+    <Projectile id="0">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+    </Projectile>
+      <Projectile id="1">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+      <ConditionEffect duration="2.5">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+    <Object type="0x136e" id="Small Reaper Minion 1">
+    <DisplayId>Reaper Minion</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>90</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>50</Size>
+    <ShadowSize>25</ShadowSize>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.0</XpMult>
+    <Projectile id="0">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+    </Projectile>
+        <Projectile id="1">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+      <ConditionEffect duration="2.5">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+    <Object type="0x136d" id="Small Reaper Minion 2">
+    <DisplayId>Reaper Minion</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>90</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>50</Size>
+    <ShadowSize>25</ShadowSize>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.0</XpMult>
+    <Projectile id="0">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+    </Projectile>
+        <Projectile id="1">
+      <ObjectId>Armor Pierce Bullet</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <ArmorPiercing/>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
+    </Projectile>
+  </Object>
+     <Object type="0x136" id="Reaper Anchor">
+      <DisplayId>Reaper Anchor</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <Defense>20</Defense>
+   </Object>
+  <Object type="0x135f" id="Reaper Chest">
+    <DisplayId>Reaper Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.0</XpMult>
+  </Object>
+     <Object type="0x135e" id="The Grim Reaper">
+      <DisplayId>The Grim Reaper</DisplayId>
+      <Class>Character</Class>
+      <Group>Ice Mages</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>92</Index>
+      </AnimatedTexture>
+      <Size>125</Size>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Defense>25</Defense>
+      <XpMult>0.2</XpMult>
+      <StunImmune/>
+      <Projectile id="0">
+         <ObjectId>Ice Bullet</ObjectId>
+         <Speed>45</Speed>
+         <Damage>150</Damage>
+         <LifetimeMS>4445</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <ConditionEffect duration="2">Darkness</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Confuse Shuriken</ObjectId>
+         <Speed>120</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="3">Confused</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x0e55" id="Beach Bum">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>37</Index>
+      </AnimatedTexture>
+      <HitSound>monster/default_hit</HitSound>
+      <DeathSound>monster/dark_elves_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Defense>15</Defense>
+      <DisplayId>{ghostShip.Beach_Bum}</DisplayId>
+   </Object>
+   <Object type="0x0e4f" id="Water Mine">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>38</Index>
+      </AnimatedTexture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Defense>30</Defense>
+      <XpMult>0</XpMult>
+      <Projectile id="0">
+         <ObjectId>LavaBombBlast</ObjectId>
+         <Damage>80</Damage>
+         <Speed>60</Speed>
+         <Size>120</Size>
+         <LifetimeMS>450</LifetimeMS>
+      </Projectile>
+      <DisplayId>{ghostShip.Water_Mine}</DisplayId>
+   </Object>
+   <Object type="0x0e4e" id="Water Mine Path">
+      <Enemy/>
+      <DisplayId>{ghostShip.Water_Mine_Path}</DisplayId>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>38</Index>
+      </AnimatedTexture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Defense>30</Defense>
+      <XpMult>0</XpMult>
+      <Projectile id="0">
+         <ObjectId>LavaBombBlast</ObjectId>
+         <Damage>80</Damage>
+         <Speed>60</Speed>
+         <Size>120</Size>
+         <LifetimeMS>450</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x0e3d" id="Beach Spectre">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>35</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/dragons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Defense>5</Defense>
+      <NoMiniMap/>
+      <Flying/>
+      <Z>0.2</Z>
+      <XpMult>0.0</XpMult>
+      <Projectile>
+         <ObjectId>Ghostly Arrow</ObjectId>
+         <Speed>66</Speed>
+         <Damage>35</Damage>
+         <Size>50</Size>
+         <LifetimeMS>800</LifetimeMS>
+      </Projectile>
+      <DisplayId>{ghostShip.Beach_Spectre}</DisplayId>
+   </Object>
+   <Object type="0x0e3c" id="Beach Spectre Spawner">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>36</Index>
+      </AnimatedTexture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Defense>100</Defense>
+      <NoMiniMap/>
+      <DisplayId>{ghostShip.Beach_Spectre_Spawner}</DisplayId>
+   </Object>
+   <Object type="0x0e3b" id="Tempest Cloud">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x33</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x33</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="3">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x34</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="4">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x35</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="5">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x36</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="6">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x37</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="7">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x38</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="8">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x39</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="9">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x3a</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/sprites_hit</HitSound>
+      <DeathSound>monster/sprites_death</DeathSound>
+      <Size>0</Size>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Defense>15</Defense>
+      <Flying/>
+      <Z>0.8</Z>
+      <Projectile id="0">
+         <ObjectId>Lightning Bolt</ObjectId>
+         <Damage>66</Damage>
+         <Speed>40</Speed>
+         <Size>80</Size>
+         <LifetimeMS>600</LifetimeMS>
+      </Projectile>
+      <DisplayId>{ghostShip.Tempest_Cloud}</DisplayId>
+   </Object>
+   <Object type="0x0e39" id="Vengeful Spirit">
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>39</Index>
+      </AnimatedTexture>
+      <HitSound>monster/flaming_skulls_hit</HitSound>
+      <DeathSound>monster/beholder_death</DeathSound>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <XpMult>0</XpMult>
+      <Enemy/>
+      <Size>0</Size>
+      <ShadowSize>80</ShadowSize>
+      <Z>0.3</Z>
+      <Flying/>
+      <Projectile>
+         <ObjectId>Ghostly Blast</ObjectId>
+         <Speed>85</Speed>
+         <Damage>65</Damage>
+         <Size>100</Size>
+         <LifetimeMS>600</LifetimeMS>
+      </Projectile>
+      <DisplayId>{ghostShip.Vengeful_Spirit}</DisplayId>
+   </Object>
+   <Object type="0x0e38" id="Ghost Ship Anchor">
+      <Enemy/>
+      <Class>Character</Class>
+      <DisplayId>{ghostShip.Ghost_Ship_Anchor}</DisplayId>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>40</Index>
+      </AnimatedTexture>
+      <HitSound>monster/sprites_hit</HitSound>
+      <DeathSound>monster/sprites_death</DeathSound>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <Defense>2000</Defense>
+      <NoMiniMap/>
+      <PerRealmMax>1</PerRealmMax>
+      <Encounter/>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>100</MaxDamage>
+         <Speed>0</Speed>
+         <Size>100</Size>
+         <LifetimeMS>5000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x0e37" id="Ghost Ship">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>37</Index>
+      </AnimatedTexture>
+      <HitSound>monster/stone_walls_death</HitSound>
+      <DeathSound>monster/flaming_skulls_death</DeathSound>
+      <Size>130</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>42000</MaxHitPoints>
+      <Defense>40</Defense>
+      <Flying/>
+      <Hero/>
+      <Level>20</Level>
+      <Quest/>
+      <God/>
+      <StasisImmune/>
+      <KeepDamageRecord/>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>36</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>37</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Cannonball</ObjectId>
+         <Damage>80</Damage>
+         <Speed>60</Speed>
+         <Size>80</Size>
+         <LifetimeMS>4000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Giant Cannonball</ObjectId>
+         <Damage>250</Damage>
+         <Speed>40</Speed>
+         <Size>180</Size>
+         <LifetimeMS>4000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <DisplayId>{ghostShip.Ghost_Ship}</DisplayId>
+   </Object>
+   <Object type="0x0e32" id="Davy Jones">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>26</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>26</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>26</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="3">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>27</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <AltTexture id="4">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>28</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="5">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>29</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="6">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>30</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/skull_shrine_death</DeathSound>
+      <Size>0</Size>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <StasisImmune/>
+      <Defense>35</Defense>
+      <God/>
+      <Quest/>
+      <XpMult>1.75</XpMult>
+      <KeepDamageRecord/>
+      <Projectile id="0">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>65</Speed>
+         <Damage>130</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="4">Bleeding</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Spinner</ObjectId>
+         <Speed>45</Speed>
+         <Damage>140</Damage>
+         <Size>110</Size>
+         <LifetimeMS>3600</LifetimeMS>
+         <Boomerang/>
+         <ConditionEffect duration="4">Bleeding</ConditionEffect>
+      </Projectile>
+      <DisplayId>{ghostShip.Davy_Jones}</DisplayId>
+   </Object>
+   <Object type="0x0e2d" id="Captain Summoner">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <DisplayId>{ghostShip.Captain_Summoner}</DisplayId>
+   </Object>
+   <Object type="0x0e50" id="Ghost Pirate Sr">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>32</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <NoMiniMap/>
+      <XpMult>0</XpMult>
+      <Size>0</Size>
+      <MaxHitPoints>1700</MaxHitPoints>
+      <Defense>15</Defense>
+      <HitSound>monster/ghosts_death</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Ghost Sr Slash</ObjectId>
+         <Speed>60</Speed>
+         <Damage>80</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+      <DisplayId>{ghostShip.Ghost_Pirate_Sr}</DisplayId>
+   </Object>
+   <Object type="0x0e36" id="Ghost Lanturn On">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Group>GhostShip Lamps</Group>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xac</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Lanturn Blast</ObjectId>
+         <Speed>40</Speed>
+         <Damage>85</Damage>
+         <LifetimeMS>600</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="2">Paralyzed</ConditionEffect>
+      </Projectile>
+      <XpMult>0.0</XpMult>
+      <Size>120</Size>
+      <ShadowColor>0xfec937a</ShadowColor>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Defense>5000</Defense>
+      <DisplayId>{ghostShip.Ghost_Lanturn_On}</DisplayId>
+   </Object>
+   <Object type="0x0e35" id="Ghost Lanturn Off">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Group>GhostShip Lamps</Group>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xad</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>spell/fire_nova</DeathSound>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>120</Size>
+      <Defense>2</Defense>
+      <DisplayId>{ghostShip.Ghost_Lanturn_Off}</DisplayId>
+   </Object>
+   <Object type="0x0e41" id="Yellow Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xae</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+      <DisplayId>{ghostShip.Yellow_Key}</DisplayId>
+   </Object>
+   <Object type="0x0e40" id="Red Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xaf</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+      <DisplayId>{ghostShip.Red_Key}</DisplayId>
+   </Object>
+   <Object type="0x0e3f" id="Green Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb6</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+      <DisplayId>{ghostShip.Green_Key}</DisplayId>
+   </Object>
+   <Object type="0x0e3e" id="Purple Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb7</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+      <DisplayId>{ghostShip.Purple_Key}</DisplayId>
+   </Object>
+   <Object type="0x0e2e" id="Yellow Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xae</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <DisplayId>{ghostShip.Yellow_Opener}</DisplayId>
+   </Object>
+   <Object type="0x0e30" id="Red Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xaf</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <DisplayId>{ghostShip.Red_Opener}</DisplayId>
+   </Object>
+   <Object type="0x0e33" id="Green Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb8</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <DisplayId>{ghostShip.Green_Opener}</DisplayId>
+   </Object>
+   <Object type="0x0e34" id="Purple Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb9</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <DisplayId>{ghostShip.Purple_Opener}</DisplayId>
+   </Object>
+   <Object type="0x0e4a" id="VDoor">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xba</Index>
+      </Texture>
+      <MaxHitPoints>10</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>0</Size>
+      <DisplayId>{ghostShip.VDoor}</DisplayId>
+   </Object>
+   <Object type="0x0e49" id="HDoor">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xbb</Index>
+      </Texture>
+      <MaxHitPoints>10</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>0</Size>
+      <DisplayId>{ghostShip.HDoor}</DisplayId>
+   </Object>
+   <Object type="0x0e3a" id="Violent Spirit">
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>36</Index>
+      </AnimatedTexture>
+      <HitSound>monster/flaming_skulls_hit</HitSound>
+      <DeathSound>monster/beholder_death</DeathSound>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <XpMult>0</XpMult>
+      <Enemy/>
+      <Size>0</Size>
+      <Z>0.3</Z>
+      <Flying/>
+      <Projectile>
+         <ObjectId>Ghostly Arrow</ObjectId>
+         <Speed>80</Speed>
+         <Damage>40</Damage>
+         <Size>50</Size>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <DisplayId>{ghostShip.Violent_Spirit}</DisplayId>
+   </Object>
+   <Object type="0x0e48" id="Lost Soul">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xbc</Index>
+      </Texture>
+      <Animation prob="1.0" period="0.0">
+         <Frame time="0.2">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xbc</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xbd</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xbe</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+      <XpMult>0</XpMult>
+      <Size>90</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Defense>30</Defense>
+      <Z>0.33</Z>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Spirit Bolt</ObjectId>
+         <Damage>40</Damage>
+         <Speed>35</Speed>
+         <Size>50</Size>
+         <LifetimeMS>600</LifetimeMS>
+      </Projectile>
+      <DisplayId>{ghostShip.Lost_Soul}</DisplayId>
+   </Object>
+   <Object type="0x0e45" id="Ghost of Roger">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+      <XpMult>1.0</XpMult>
+      <Size>120</Size>
+      <MaxHitPoints>2300</MaxHitPoints>
+      <Defense>50</Defense>
+      <Z>0.15</Z>
+      <HitSound>monster/ghosts_death</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Roger Blast</ObjectId>
+         <Speed>65</Speed>
+         <Damage>110</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Skull Bolt</ObjectId>
+         <Speed>70</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+      <DisplayId>{ghostShip.Ghost_of_Roger}</DisplayId>
+   </Object>
+   <Object type="0x0e47" id="Maggot Sack">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <XpMult>0</XpMult>
+      <Size>0</Size>
+      <MaxHitPoints>200</MaxHitPoints>
+      <DisplayId>{ghostShip.Maggot_Sack}</DisplayId>
+   </Object>
+   <Object type="0x0e46" id="Maggot">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>30</Index>
+      </AnimatedTexture>
+      <XpMult>1.0</XpMult>
+      <Size>40</Size>
+      <ShadowSize>85</ShadowSize>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Defense>2</Defense>
+      <HitSound>monster/blobs_hit</HitSound>
+      <DeathSound>monster/blobs_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>30</Damage>
+         <Speed>0</Speed>
+         <Size>80</Size>
+         <LifetimeMS>200</LifetimeMS>
+         <ConditionEffect duration="3">Sick</ConditionEffect>
+      </Projectile>
+      <DisplayId>{ghostShip.Maggot}</DisplayId>
+   </Object>
+   <Object type="0x0e44" id="School of Ghostfish">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <XpMult>1.0</XpMult>
+      <Size>110</Size>
+      <MaxHitPoints>1600</MaxHitPoints>
+      <Defense>3</Defense>
+      <Z>0.1</Z>
+      <HitSound>monster/cubes_death</HitSound>
+      <DeathSound>monster/dark_elves_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Fish Shot</ObjectId>
+         <Speed>40</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1300</LifetimeMS>
+         <Size>80</Size>
+      </Projectile>
+      <DisplayId>{ghostShip.School_of_Ghostfish}</DisplayId>
+   </Object>
+   <Object type="0x0e43" id="Zombie Pirate Sr">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>34</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>35</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <BloodProb>0.5</BloodProb>
+      <BloodColor>0x50d71b</BloodColor>
+      <XpMult>1.0</XpMult>
+      <Size>110</Size>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <Defense>17</Defense>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/undead_hobbits_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Zombie Shot</ObjectId>
+         <Speed>55</Speed>
+         <Damage>66</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>110</Size>
+      </Projectile>
+      <DisplayId>{ghostShip.Zombie_Pirate_Sr}</DisplayId>
+   </Object>
+   <Object type="0x0e42" id="Zombie Pirate Jr">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>32</Index>
+      </AnimatedTexture>
+      5171081
+      <XpMult>1.0</XpMult>
+      <Size>110</Size>
+      <MaxHitPoints>700</MaxHitPoints>
+      <Defense>11</Defense>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/undead_hobbits_death</DeathSound>
+      <BloodProb>0.5</BloodProb>
+      <BloodColor>0x50d71b</BloodColor>
+      <Projectile id="0">
+         <ObjectId>Zombie Shot</ObjectId>
+         <Speed>33</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>80</Size>
+      </Projectile>
+      <DisplayId>{ghostShip.Zombie_Pirate_Jr}</DisplayId>
+   </Object>
+   <Object type="0x0e31" id="Lil' Ghost Pirate">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars8x8rEncounters</File>
+            <Index>33</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <NoMiniMap/>
+      <XpMult>0.005</XpMult>
+      <Size>0</Size>
+      <MaxHitPoints>700</MaxHitPoints>
+      <Defense>0</Defense>
+      <HitSound>monster/ghosts_death</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Ghost Swipe</ObjectId>
+         <Speed>66</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>90</Size>
+      </Projectile>
+      <DisplayId>{ghostShip.LilAPOS_Ghost_Pirate}</DisplayId>
+   </Object>
+   <Object type="0x0e2f" id="GhostShip Rat">
+      <Class>Character</Class>
+      <Enemy/>
+      <DisplayId>{ghostShip.GhostShip_Rat}</DisplayId>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>34</Index>
+      </AnimatedTexture>
+      <HitSound>monster/bats_hit</HitSound>
+      <DeathSound>monster/flayers_hit</DeathSound>
+      <XpMult>1.0</XpMult>
+      <Size>100</Size>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Defense>5</Defense>
+      <Projectile id="0">
+         <ObjectId>Rat Tail</ObjectId>
+         <Speed>45</Speed>
+         <Damage>45</Damage>
+         <LifetimeMS>1500</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="1">Stunned</ConditionEffect>
+      </Projectile>
+   </Object>
+   
+   
+   
+   
+  
+  
+  <Object type="0x6712" id="Swarming Huntress Set Skin">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins16</File>
+         <Index>10</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0322</PlayerClassType>
+      <UnlockSpecial>Set Skin</UnlockSpecial>
+      <NoSkinSelect/>
+      <DisplayId>Swarming Huntress Set Skin</DisplayId>
+   </Object> 
+   
+   
+  <Object type="0x6668" id="BeeArrow" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xed</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+
+  <Object type="0x6669" id="BeeArrow2" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xee</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+    
+   <Object type="0x6670" id="Honey Circlet" setType="0x0009" setName="Swarming Huntress Set">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xec</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>{equip.A_ring_crafted_from_the_dangerous_Fire_Coral.}</Description>
+      <ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>500</feedPower>
+      <Soulbound/>
+      <DisplayId>Honey Circlet</DisplayId>
+   </Object>
+
+   <Object type="0x6671" id="Apiary Armor" setType="0x0009" setName="Swarming Huntress Set">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xeb</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Description>Lightweight, yet protective armor taken from the shed exoskeleton of a warrior bee.</Description>
+      <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="20" amount="-5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>800</feedPower>
+      <Soulbound/>
+      <DisplayId>Apiary Armor</DisplayId>
+   </Object>
+
+   <Object type="0x6672" id="Honeytomb Snare" setType="0x0009" setName="Swarming Huntress Set">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xea</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Description>A strange trap that subdues would-be pilferers with a torrent of sticky honey.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>130</MpCost>
+      <Activate radius="7" totalDamage="50" condEffect="Slowed" condDuration="3" color="FFC300" sensitivity=".2" duration="3" tilArmed="1.00">Trap</Activate>
+      <feedPower>700</feedPower>
+      <Soulbound/>
+      <DisplayId>Honeytomb Snare</DisplayId>
+   </Object>
+
+   <Object type="0x6673" id="Nectar Crossfire" setType="0x0009" setName="Swarming Huntress Set">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xe9</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Description>A flexible ironwax bow created by the Felwasp Guards to defend their larvae from assailants.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/golden_bow</Sound>
+      <Projectile>
+         <ObjectId>BeeArrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>468</LifetimeMS>
+         <Frequency>0.5</Frequency>
+         <Amplitude>0.5</Amplitude>
+         <MultiHit/>
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <NumProjectiles>4</NumProjectiles>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>1200</feedPower>
+      <Soulbound/>
+      <DisplayId>Nectar Crossfire</DisplayId>
+   </Object>
+   
+   <Object type="0x7811" id="000001 The like gold wall thing">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xfb</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xfb</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+
+  <Object type="0x7812" id="000002 The stone kinda wall..">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xfc</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+   
+   
+   
+   <Object type="0x6702" id="Mini Oryx">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>95</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Oryx</DisplayId>
+  </Object>
+
+  <Object type="0x6703" id="Mini Oryx Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>95</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Knight with the Mini Oryx Skin.\n\nSkin Class: Knight</Description>
+    <Activate skinType="26370">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <feedPower>50</feedPower>
+    <DisplayId>Mini Oryx Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6704" id="Mini Thessal">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>94</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Thessal</DisplayId>
+  </Object>
+
+  <Object type="0x6705" id="Mini Thessal Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>94</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Huntress with the Mini Thessal skin.\n\nSkin Class: Huntress</Description>
+    <Activate skinType="26372">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Thessal Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6706" id="Mini Phylactery">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>96</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Phylactery</DisplayId>
+  </Object>
+
+  <Object type="0x6707" id="Mini Phylactery Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>96</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Mystic with the Mini Phylactery skin.\n\nSkin Class: Mystic</Description>
+    <Activate skinType="26374">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Phylactery Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6708" id="Baby Djinja">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>102</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Baby Djinja</DisplayId>
+  </Object>
+
+  <Object type="0x6709" id="Baby Djinja Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>102</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Ninja with the Baby Djinja Skin.\n\nSkin Class: Ninja</Description>
+    <Activate skinType="26376">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Baby Djinja Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6800" id="Mini Rosen">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>103</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Rosen</DisplayId>
+  </Object>
+
+  <Object type="0x6801" id="Mini Rosen Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>103</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This rose might look peaceful, but her blade will strike you faster than you blink!\n\nSkin Class: Ninja</Description>
+    <Activate skinType="26624">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Rosen Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6802" id="Mini Geb">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>98</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Geb</DisplayId>
+  </Object>
+
+  <Object type="0x6803" id="Mini Geb Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>98</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Priest with the Mini Geb skin.\n\nSkin Class: Priest</Description>
+    <Activate skinType="26626">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Geb Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6804" id="Mini Skuld">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>99</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Skuld</DisplayId>
+  </Object>
+
+  <Object type="0x6805" id="Mini Skuld Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>99</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Rogue with the Mini Skuld Skin.\n\nSkin Class: Rogue</Description>
+    <Activate skinType="26628">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Skuld Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6806" id="Mini Archmage">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>100</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Archmage</DisplayId>
+  </Object>
+
+  <Object type="0x6807" id="Mini Archmage Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>100</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Wizard with the Mini Archmage Skin.\n\nSkin Class: Wizard</Description>
+    <Activate skinType="26630">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Archmage Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6808" id="Mini Swoll">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>97</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Swoll</DisplayId>
+  </Object>
+
+  <Object type="0x6809" id="Mini Swoll Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>97</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Mini Swoll skin.\n\nSkin Class: Paladin</Description>
+    <Activate skinType="26632">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mini Swoll Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6810" id="Slurp Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>107</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Slurp Knight</DisplayId>
+  </Object>
+
+  <Object type="0x6011" id="Slurp Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>107</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Knight with the Slurp Knight Skin.\n\nSkin Class: Knight</Description>
+    <Activate skinType="26634">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Slurp Knight Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6512" id="Vampire Lord">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>108</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Vampire Lord</DisplayId>
+  </Object>
+
+  <Object type="0x6513" id="Vampire Lord Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>108</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Necromancer with the Vampire Lord Skin.\n\nSkin Class: Necromancer</Description>
+    <Activate skinType="25874">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Vampire Lord Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6514" id="Headless Rider">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>109</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Headless Rider</DisplayId>
+  </Object>
+
+  <Object type="0x6515" id="Headless Rider Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>109</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Headless Rider Skin.\n\nSkin Class: Paladin</Description>
+    <Activate skinType="25876">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Headless Rider Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6516" id="Pilgrim Father">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>110</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Pilgrim Father</DisplayId>
+  </Object>
+
+  <Object type="0x6517" id="Pilgrim Father Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>110</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Pilgrim Father Skin.\n\nSkin Class: Paladin</Description>
+    <Activate skinType="25878">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Pilgrim Father Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6518" id="Pilgrim Mother">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>111</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Pilgrim Mother</DisplayId>
+  </Object>
+
+  <Object type="0x6519" id="Pilgrim Mother Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>111</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Mystic with the Pilgrim Mother Skin.\n\nSkin Class: Mystic</Description>
+    <Activate skinType="25880">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Pilgrim Mother Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6520" id="Wizard Supreme">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>112</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Wizard Supreme</DisplayId>
+  </Object>
+
+  <Object type="0x6521" id="Wizard Supreme Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>112</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Wizard with the Wizard Supreme Skin.\n\nSkin Class: Wizard</Description>
+    <Activate skinType="25888">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Wizard Supreme Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6522" id="Rudolph the Berzerk">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>113</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Rudolph the Berzerk</DisplayId>
+  </Object>
+
+  <Object type="0x6523" id="Rudolph the Berzerk Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>113</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Warrior with the Rudolph the Berzerk Skin\n\nSkin Class: Warrior</Description>
+    <Activate skinType="25890">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Rudolph the Berzerk Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6524" id="Miss Santa">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>114</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Miss Santa</DisplayId>
+  </Object>
+
+  <Object type="0x6525" id="Miss Santa Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>114</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Miss Santa Skin.\n\nSkin Class: Paladin</Description>
+    <Activate skinType="25892">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Miss Santa Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6526" id="Snow Queen">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>115</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Snow Queen</DisplayId>
+  </Object>
+
+  <Object type="0x6527" id="Snow Queen Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>115</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Wizard with the Snow Queen Skin.\n\nSkin Class: Wizard</Description>
+    <Activate skinType="25894">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Snow Queen Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6528" id="Dragon Tamer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>116</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Dragon Tamer</DisplayId>
+  </Object>
+
+  <Object type="0x6529" id="Dragon Tamer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>116</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Warrior with the Dragon Tamer Skin.\n\nSkin Class: Warrior</Description>
+    <Activate skinType="25896">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Dragon Tamer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6530" id="Inuit">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>117</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Inuit</DisplayId>
+  </Object>
+
+  <Object type="0x6531" id="Inuit Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>117</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Archer with the Inuit Skin.\n\nSkin Class: Archer</Description>
+    <Activate skinType="25904">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Inuit Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6532" id="Snowcloaked Rogue">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>118</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Snowcloaked Rogue</DisplayId>
+  </Object>
+
+  <Object type="0x6533" id="Snowcloaked Rogue Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>118</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Rogue with the Snowcloaked Rogue Skin.\n\nSkin Class: Rogue</Description>
+    <Activate skinType="25906">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Snowcloaked Rogue Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6534" id="Chinese Dress Trickster">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>119</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Chinese Dress Trickster</DisplayId>
+  </Object>
+
+  <Object type="0x6535" id="Chinese Dress Trickster Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>119</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Fashionable AND dangerous.\n\nSkin Class: Trickster</Description>
+    <Activate skinType="25908">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Chinese Dress Trickster Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6536" id="Penguin Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>120</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Penguin Knight</DisplayId>
+  </Object>
+
+  <Object type="0x6537" id="Penguin Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>120</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Looks a lot less cute once its sword is in your eye.\n\nSkin Class: Knight</Description>
+    <Activate skinType="25910">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Penguin Knight Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6538" id="Frimar Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>121</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Frimar Knight</DisplayId>
+  </Object>
+
+  <Object type="0x6539" id="Frimar Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>121</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Smaller than the real Frimar, but no less dangerous.\n\nSkin Class: Knight</Description>
+    <Activate skinType="25912">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Frimar Knight Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6540" id="Frozen King">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>122</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Frozen King</DisplayId>
+  </Object>
+
+  <Object type="0x6541" id="Frozen King Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>122</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Once sat on a Frozen Throne, but decided to go adventuring.\n\nSkin Class: Necromancer</Description>
+    <Activate skinType="25920">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Frozen King Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6542" id="Blizzard Sorcerer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>123</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Blizzard Sorcerer</DisplayId>
+  </Object>
+
+  <Object type="0x6543" id="Blizzard Sorcerer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>123</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Some say the world will end in fire, some say in ice.\n\nSkin Class: Sorcerer</Description>
+    <Activate skinType="25922">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Blizzard Sorcerer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6544" id="Ice King Priest">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>124</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Ice King Priest</DisplayId>
+  </Object>
+
+  <Object type="0x6545" id="Ice King Priest Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>124</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Crown not included to preserve sanity.\n\nSkin Class: Priest</Description>
+    <Activate skinType="25924">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Ice King Priest Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6546" id="Icicle Dial Mystic">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>125</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Icicle Dial Mystic</DisplayId>
+  </Object>
+
+  <Object type="0x6547" id="Icicle Dial Mystic Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>125</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>In case of emergency use icicle to stab enemy.\n\nSkin Class: Mystic</Description>
+    <Activate skinType="25926">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Icicle Dial Mystic Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6548" id="Yuki Onna Mystic">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Yuki Onna Mystic</DisplayId>
+  </Object>
+
+  <Object type="0x6549" id="Yuki Onna Mystic Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Do not follow, unless you like frostbite.\n\nSkin Class: Mystic</Description>
+    <Activate skinType="25928">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Yuki Onna Mystic Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6550" id="Warrior - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Warrior - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6551" id="Warrior - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Warrior</Description>
+    <Activate skinType="25936">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Warrior - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6552" id="Paladin - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Paladin - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6553" id="Paladin - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Paladin</Description>
+    <Activate skinType="25938">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Paladin - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6554" id="Knight - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Knight - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6555" id="Knight - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Knight</Description>
+    <Activate skinType="25940">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Knight - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6556" id="Ninja - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Ninja - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6557" id="Ninja - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Ninja</Description>
+    <Activate skinType="25942">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Ninja - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6558" id="Archer - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Archer - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6559" id="Archer - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Archer</Description>
+    <Activate skinType="25944">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Archer - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6560" id="Rogue - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Rogue - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6561" id="Rogue - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Rogue</Description>
+    <Activate skinType="25952">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Rogue - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6562" id="Assassin - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Assassin - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6563" id="Assassin - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Assassin</Description>
+    <Activate skinType="25954">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Assassin - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6564" id="Wizard - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Wizard - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6565" id="Wizard - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Wizard</Description>
+    <Activate skinType="25956">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Wizard - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6566" id="Necromancer - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Necromancer - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6567" id="Necromancer - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Necromancer</Description>
+    <Activate skinType="25958">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Necromancer - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6568" id="Priest - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Priest - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6569" id="Priest - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Priest</Description>
+    <Activate skinType="25960">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Priest - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6570" id="Sorcerer - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Sorcerer - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6571" id="Sorcerer - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Sorcerer</Description>
+    <Activate skinType="25968">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Sorcerer - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6572" id="Huntress - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Huntress - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6573" id="Huntress - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Huntress</Description>
+    <Activate skinType="25970">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Huntress - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6574" id="Mystic - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Mystic - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6575" id="Mystic - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Mystic</Description>
+    <Activate skinType="25972">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mystic - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6576" id="Trickster - Artist Extraordinaire">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <UnlockSpecial>Make Sprites</UnlockSpecial>
+    <DisplayId>Trickster - Artist Extraordinaire</DisplayId>
+  </Object>
+
+  <Object type="0x6577" id="Trickster - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSkin Class: Trickster</Description>
+    <Activate skinType="25974">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Trickster - Artist Extraordinaire Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6578" id="Wizard - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Wizard - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6579" id="Wizard - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Wizard</Description>
+    <Activate skinType="25976">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Wizard - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6580" id="Priest - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Priest - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6581" id="Priest - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Priest</Description>
+    <Activate skinType="25984">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Priest - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6582" id="Necromancer - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Necromancer - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6583" id="Necromancer - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Necromancer</Description>
+    <Activate skinType="25986">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Necromancer - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6584" id="Sorcerer - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Sorcerer - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6585" id="Sorcerer - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Sorcerer</Description>
+    <Activate skinType="25988">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Sorcerer - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6586" id="Mystic - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Mystic - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6587" id="Mystic - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Mystic</Description>
+    <Activate skinType="25990">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Mystic - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6588" id="Rogue - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Rogue - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6589" id="Rogue - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Rogue</Description>
+    <Activate skinType="25992">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Rogue - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6590" id="Warrior - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Warrior - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6591" id="Warrior - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Warrior</Description>
+    <Activate skinType="26000">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Warrior - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6592" id="Assassin - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Assassin - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6593" id="Assassin - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Assassin</Description>
+    <Activate skinType="26002">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Assassin - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6594" id="Ninja - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Ninja - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6595" id="Ninja - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Ninja</Description>
+    <Activate skinType="26004">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Ninja - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6596" id="Paladin - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Paladin - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6597" id="Paladin - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Paladin</Description>
+    <Activate skinType="26006">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Paladin - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6598" id="Knight - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Knight - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6599" id="Knight - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Knight</Description>
+    <Activate skinType="26008">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Knight - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6600" id="Trickster - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Trickster - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6601" id="Trickster - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Trickster</Description>
+    <Activate skinType="26112">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Trickster - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6602" id="Huntress - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>131</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Huntress - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6603" id="Huntress - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>131</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Huntress</Description>
+    <Activate skinType="26114">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Huntress - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6604" id="Archer - Dungeon Mastermind">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>131</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Make Dungeons</UnlockSpecial>
+    <DisplayId>Archer - Dungeon Mastermind</DisplayId>
+  </Object>
+
+  <Object type="0x6605" id="Archer - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>131</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSkin Class: Archer</Description>
+    <Activate skinType="26116">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>Archer - Dungeon Mastermind Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x6606" id="Juliet">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins</File>
+<Index>132</Index>
+</AnimatedTexture>
+<PlayerClassType>0x0324</PlayerClassType>
+<UnlockSpecial>Buy it</UnlockSpecial>
+<DisplayId>Juliet</DisplayId>
+</Object>
+
+  <Object type="0x6607" id="Juliet Trickster Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>132</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Oh white bag, white bag! Wherefore art thou white bag?\n\nSkin Class: Trickster
+    </Description>
+    <Activate skinType="26118">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+	<DisplayId>Juliet Trickster Skin</DisplayId>
+  </Object>   
+  
+  <Object type="0x6608" id="Heartseeker">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins</File>
+<Index>133</Index>
+</AnimatedTexture>
+<PlayerClassType>0x0322</PlayerClassType>
+<UnlockSpecial>Buy it</UnlockSpecial>
+<DisplayId>Heartseeker</DisplayId>
+</Object>
+
+    <Object type="0x6609" id="Heartseeker Huntress Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>133</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      She's coming for your heart!\n\nSkin Class: Huntress
+    </Description>
+    <Activate skinType="26120">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+	<DisplayId>Heartseeker Huntress Skin</DisplayId>
+  </Object>
+
+<Object type="0x6610" id="Romeo">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins</File>
+<Index>134</Index>
+</AnimatedTexture>
+<PlayerClassType>0x0320</PlayerClassType>
+<UnlockSpecial>Buy it</UnlockSpecial>
+<DisplayId>Romeo</DisplayId>
+</Object>
+
+ <Object type="0x6611" id="Romeo Assassin Skin">
+<Class>Equipment</Class>
+<Item/>
+<AnimatedTexture>
+<File>playerskins</File>
+<Index>134</Index>
+</AnimatedTexture>
+<SlotType>10</SlotType>
+<Description>
+Is good loot a tender thing? It is too rare, too scarce, too extraordinary, and it pricks like a Poison Fang Dagger.\n\nSkin Class: Assassin
+</Description>
+<Activate skinType="26128">UnlockSkin</Activate>
+<Consumable/>
+<Soulbound/>
+<BagType>5</BagType>
+<feedPower>2000</feedPower>
+<DisplayId>Romeo Assassin Skin</DisplayId>
+</Object>
+
+  <Object type="0x6612" id="Mardi Gras Jester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>135</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+	<DisplayId>Mardi Gras Jester</DisplayId>
+  </Object>
+
+  <Object type="0x6613" id="Mardi Gras Sorcerer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>135</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Let's get this clown fiesta started!\n\nSkin Class: Sorcerer
+    </Description>
+    <Activate skinType="26130">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+	<DisplayId>Mardi Gras Sorcerer Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6614" id="Carnivalmancer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>136</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+	<DisplayId>Carnivalmancer</DisplayId>
+  </Object>
+
+    <Object type="0x6615" id="Carnivalmancer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>136</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Totally not a Necromancer.\n\nSkin Class: Necromancer
+    </Description>
+    <Activate skinType="26132">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+	<DisplayId>Carnivalmancer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6616" id="Warrior - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Warrior - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6617" id="Warrior - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Warrior
+    </Description>
+    <Activate skinType="26134">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Warrior - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6618" id="Knight - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Knight - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6619" id="Knight - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Knight
+    </Description>
+    <Activate skinType="26136">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Knight - Future Seeker Tester Skin</DisplayId>
+  </Object>  
+
+    <Object type="0x6620" id="Paladin - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Paladin - Future Seeker Tester</DisplayId>
+  </Object>
+
+  <Object type="0x6621" id="Paladin - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Paladin
+    </Description>
+    <Activate skinType="26144">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Paladin - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6622" id="Rogue - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Rogue - Future Seeker Tester</DisplayId>
+  </Object>
+
+  <Object type="0x6623" id="Rogue - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Rogue
+    </Description>
+    <Activate skinType="26146">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Rogue - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6624" id="Assassin - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Assassin - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6625" id="Assassin - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Assassin
+    </Description>
+    <Activate skinType="26148">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Assassin - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6626" id="Trickster - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Trickster - Future Seeker Tester</DisplayId>
+  </Object>
+
+  <Object type="0x6627" id="Trickster - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Trickster
+    </Description>
+    <Activate skinType="26150">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Trickster - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+  <Object type="0x6628" id="Ninja - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Ninja - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6629" id="Ninja - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Ninja
+    </Description>
+    <Activate skinType="26152">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Ninja - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6630" id="Wizard - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Wizard - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6631" id="Wizard - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Wizard
+    </Description>
+    <Activate skinType="26160">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Wizard - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6632" id="Necromancer - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Necromancer - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6633" id="Necromancer - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Necromancer
+    </Description>
+    <Activate skinType="26162">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Necromancer - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6634" id="Mystic - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Mystic - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6635" id="Mystic - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Mystic
+    </Description>
+    <Activate skinType="26164">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Mystic - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6636" id="Archer - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>140</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Archer - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6637" id="Archer - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>140</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="26166">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Archer - Future Seeker Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6638" id="Huntress - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>140</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Huntress - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6639" id="Huntress - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>140</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Huntress
+    </Description>
+    <Activate skinType="26168">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Huntress - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6640" id="Priest - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>141</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Priest - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6641" id="Priest - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>141</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Priest
+    </Description>
+    <Activate skinType="26176">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Priest - Future Seeker Tester Skin</DisplayId>
+  </Object>
+
+    <Object type="0x6642" id="Sorcerer - Future Seeker Tester">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>141</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <NoSkinSelect/>
+	<DisplayId>Sorcerer - Future Seeker Tester</DisplayId>
+  </Object>
+
+    <Object type="0x6643" id="Sorcerer - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>141</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Testers assemble! Seek the bugs of tomorrow!\n\nSkin Class: Sorcerer
+    </Description>
+    <Activate skinType="26178">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+	<DisplayId>Sorcerer - Future Seeker Tester Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x2acf" id="Wind Flower Ninja">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Wind Flower Ninja</DisplayId>
+  </Object>
+
+  <Object type="0x2adf" id="Wind Flower Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Make sure to Equip a Wind Circle for style points!\n\nSkin Class: Ninja
+    </Description>
+    <Activate skinType="10959">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>1500</feedPower>
+    <DisplayId>Wind Flower Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad0" id="Leprechaun Mystic">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>143</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Leprechaun Mystic<DisplayId>
+  </Object>
+
+  <Object type="0x2ae0" id="Leprechaun Mystic Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>143</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Legends say she will lead you to a pot of gold if you catch her!\n\nSkin Class: Mystic
+    </Description>
+    <Activate skinType="10960">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Leprechaun Mystic Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad1" id="Mini Nut">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>144</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Nut</DisplayId>
+  </Object>
+
+  <Object type="0x2aed" id="Mini Nut Archer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>144</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      The goddess of the sky. Make sure not to vandalize her property.\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="10961">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Mini Nut Archer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad2" id="Miss Shamrock">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>145</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Miss Shamrock</DisplayId>
+  </Object>
+
+  <Object type="0x2ae1" id="Miss Shamrock Wizard Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>145</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      The most ladylike of all leprechauns, or so she says. Don't tell the Mystic!\n\nSkin Class: Wizard
+    </Description>
+    <Activate skinType="10962">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Miss Shamrock Wizard Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad3" id="Sheep Warrior">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>146</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Sheep Warrior</DisplayId>
+  </Object>
+
+  <Object type="0x2ae2" id="Sheep Warrior Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>146</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      200 POUNDS OF FLUFFY TESTOSTERONE!\n\nSkin Class: Warrior
+    </Description>
+    <Activate skinType="10963">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Sheep Warrior Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad4" id="Sheep Rogue">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>147</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Sheep Rogue</DisplayId>
+  </Object>
+
+  <Object type="0x2ae3" id="Sheep Rogue Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>147</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Easily pulls his wool over people's eyes.\n\nSkin Class: Rogue
+    </Description>
+    <Activate skinType="10964">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Sheep Rogue Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad5" id="Sheep Wizard">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>148</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Sheep Wizard</DisplayId>
+  </Object>
+
+  <Object type="0x2ae4" id="Sheep Wizard Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>148</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Ever thought about all the wizards who got polymorphed into sheep?\n\nSkin Class: Wizard
+    </Description>
+    <Activate skinType="10965">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Sheep Wizard Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad6" id="Sheep Archer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>149</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Sheep Archer</DisplayId>
+  </Object>
+
+  <Object type="0x2ae5" id="Sheep Archer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>149</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      The hunters will now become the hunted!\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="10966">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Sheep Archer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad7" id="Sheep Priest">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>150</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Sheep Priest</DisplayId>
+  </Object>
+
+  <Object type="0x2ae6" id="Sheep Priest Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>150</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Guides the lambs to greener pastures.\n\nSkin Class: Priest
+    </Description>
+    <Activate skinType="10967">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Sheep Priest Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x2ad8" id="Lil' Bo-Peep">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>151</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Lil' Bo-Peep</DisplayId>
+  </Object>
+
+  <Object type="0x2ae7" id="Lil' Bo-Peep Mystic Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>151</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Little Bo-Peep has lost her sheep...\n\nSkin Class: Mystic
+    </Description>
+    <Activate skinType="10968">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>5000</feedPower>
+    <DisplayId>Lil' Bo-Peep Mystic Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ad9" id="The Flamingo">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>152</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpeical>Buy it</UnlockSpeical>
+    <DisplayId>The Flamingo</DisplayId>
+  </Object>
+
+  <Object type="0x2ae8" id="The Flamingo Wizard Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>152</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      It's a bird... It's a plane... It's... just another wizard.\n\nSkin Class: Wizard
+    </Description>
+    <Activate skinType="10969">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>900</feedPower>
+    <DisplayId>The Flamingo Wizard Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2adb" id="Dr. Spellbomb">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>153</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Dr. Spellbomb</DisplayId>
+  </Object>
+
+  <Object type="0x2aea" id="Dr. Spellbomb Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>153</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      MARVEL AT HIS ABILITY!\n\nSkin Class: Wizard
+    </Description>
+    <Activate skinType="10971">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Dr. Spellbomb Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ada" id="Mini Stheno">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>154</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Stheno Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ae9" id="Mini Stheno Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>154</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Dye it green to become Stheno's sister!\n\nSkin Class: Assassin
+    </Description>
+    <Activate skinType="10970">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Mini Stheno Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2ade" id="Iron Maiden">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>155</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Iron Maiden</DisplayId>
+  </Object>
+
+  <Object type="0x2aeb" id="Iron Maiden Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>155</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      A divine leader of war and an exceptional musical artist.\n\nSkin Class: Paladin
+    </Description>
+    <Activate skinType="10974">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Iron Maiden Skin</DisplayId>
+  </Object>
+
+  <Object type="0x2adc" id="Explorer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>156</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Explorer</DisplayId>
+  </Object>
+
+  <Object type="0x2aec" id="Explorer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>156</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Sails the seven seas to sell his life pots. For overpay, naturally.\n\nSkin Class: Warrior
+    </Description>
+    <Activate skinType="10972">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>5</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Explorer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad0" id="Mystic Emeritus">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>157</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mystic Emeritus</DisplayId>
+  </Object>
+
+  <Object type="0x4ad8" id="Mystic Emeritus Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>157</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      A strikingly realistic statue of a famous mystic who disappeared after a catastrophic spell failure.\n\nSkin Class: Mystic
+    </Description>
+    <Activate skinType="19152">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Mystic Emeritus Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad1" id="Silver Ninja">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>158</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Silver Ninja</DisplayId>
+  </Object>
+
+  <Object type="0x4ad9" id="Silver Ninja Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>158</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      The last ninja from the Five Wolf Samurai group.\n\nSkin Class: Ninja
+    </Description>
+    <Activate skinType="19153">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>900</feedPower>
+    <DisplayId>Silver Ninja Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad2" id="Woodland Huntress">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>159</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Woodland Huntress</DisplayId>
+  </Object>
+
+  <Object type="0x4ada" id="Woodland Huntress Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>159</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      A protector of the Realm's forests and a master of archery. She's sometimes seen having tea with forest fairies and taking walks with her silver doe.\n\nSkin Class: Huntress
+    </Description>
+    <Activate skinType="19154">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Woodland Huntress Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x4ad3" id="Bunny Trickster">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>160</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Bunny Trickster</DisplayId>
+  </Object>
+
+  <Object type="0x4adb" id="Bunny Trickster Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>160</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      A talented dancer and one of the few people that knows how to calm down an enraged bunny.\n\nSkin Class: Trickster
+    </Description>
+    <Activate skinType="19155">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Bunny Trickster Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad4" id="Shrine Priestess">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>161</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Shrine Priestess</DisplayId>
+  </Object>
+
+  <Object type="0x4adc" id="Shrine Priestess Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>161</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      An elegant shrine priestess, always quick to help others. Unfortunately, she rarely receives donations.\n\nSkin Class: Priest
+    </Description>
+    <Activate skinType="19156">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Shrine Priestess Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad5" id="Red Outlaw">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>162</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Red Outlaw</DisplayId>
+  </Object>
+
+  <Object type="0x4add" id="Red Outlaw Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>162</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      This rouge rogue skin will make your character look rad in red.\n\nSkin Class: Rogue
+    </Description>
+    <Activate skinType="19157">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Red Outlaw Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad6" id="Shadow Mage">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>163</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Shadow Mage</DisplayId>
+  </Object>
+
+  <Object type="0x4ade" id="Shadow Mage Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>163</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      He's known for dropping the sickest heals. All the witches love him!\n\nSkin Class: Necromancer
+    </Description>
+    <Activate skinType="19158">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Shadow Mage Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4ad7" id="Shield Maiden">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>164</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Shield Maiden</DisplayId>
+  </Object>
+
+  <Object type="0x4adf" id="Shield Maiden Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>164</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Not all princesses need a prince to rescue them!\n\nSkin Class: Knight
+    </Description>
+    <Activate skinType="19159">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>5000</feedPower>
+    <DisplayId>Shield Maiden Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4baa" id="Markswoman Huntress">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>165</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Markswoman Huntress</DisplayId>
+  </Object>
+
+  <Object type="0x4bb0" id="Markswoman Huntress Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>165</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      She'll shoot through your heart!\n\nSkin Class: Huntress
+    </Description>
+    <Activate skinType="19370">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Markswoman Huntress Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bab" id="Elf Archers">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>166</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Elf Archers</DisplayId>
+  </Object>
+
+  <Object type="0x4bb1" id="Elf Archer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>166</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Get out of my forest!\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="19371">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Elf Archer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bac" id="Ordinary Magician">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>167</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x30e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Ordinary Magician</DisplayId>
+  </Object>
+
+  <Object type="0x4bb2" id="Ordinary Magician Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>167</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      A normal human with no innate abilities. However, she is very capable of reciting the most powerful spells known in the realm.\n\nSkin Class: Wizard
+    </Description>
+    <Activate skinType="19372">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>5000</feedPower>
+    <DisplayId>Ordinary Magician Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bad" id="Heroic Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>168</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Heroic Knight</DisplayId>
+  </Object>
+
+  <Object type="0x4bb3" id="Heroic Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>168</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      My boy, this peace is what all true knights strive for!\n\nSkin Class: Knight
+    </Description>
+    <Activate skinType="19373">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>5000</feedPower>
+    <DisplayId>Heroic Knight Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x4bc1" id="Swimsuit Trickster">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>178</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Swimsuit Trickster</DisplayId>
+  </Object>
+
+  <Object type="0x4bc9" id="Swimsuit Trickster Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>178</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Careful, she will stab your heart in all kind of ways!\n\nSkin Class: Trickster
+    </Description>
+    <Activate skinType="19393">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Swimsuit Trickster Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bc2" id="Slashing Beauty Ninja">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>179</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Slashing Beauty Ninja</DisplayId>
+  </Object>
+
+  <Object type="0x4bca" id="Slashing Beauty Ninja Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>179</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      One night with her, an eternity in Heaven.\n\nSkin Class: Ninja
+    </Description>
+    <Activate skinType="19394">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>5000</feedPower>
+    <DisplayId>Slashing Beauty Ninja Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bcb" id="Sunflower Archer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>180</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Sunflower Archer</DisplayId>
+  </Object>
+
+  <Object type="0x4bcd" id="Sunflower Archer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>180</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      She slays enemies with flowers instead of arrows!\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="19403">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>1500</feedPower>
+    <DisplayId>Sunflower Archer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bcc" id="Thief Queen">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>181</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Thief Queen</DisplayId>
+  </Object>
+
+  <Object type="0x4bce" id="Thief Queen Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>181</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Wanted, dead or alive. Reward: the Lost Lands throne, a huge pile of gold and the best bottle of wine from the Mad God himself.\n\nSkin Class: Rogue
+    </Description>
+    <Activate skinType="19404">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>1500</feedPower>
+    <DisplayId>Thief Queen Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bcf" id="Mini Queen Bee Huntress">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>182</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Mini Queen Bee Huntress</DisplayId>
+  </Object>
+
+  <Object type="0x4bd0" id="Mini Queen Bee Huntress Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>182</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Become a Mini Queen Bee! Wait a second, wouldn't that make you a Princess Bee instead?\n\nSkin Class: Huntress
+    </Description>
+    <Activate skinType="19407">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Mini Queen Bee Huntress Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bd1" id="Bard Priestess">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>183</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Bard Priestess</DisplayId>
+  </Object>
+
+  <Object type="0x4bea" id="Bard Priestess Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>183</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Her tunes will ward away evil and reinvigorate your soul!\n\nSkin Class: Priest
+    </Description>
+    <Activate skinType="19409">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Bard Priestess Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x4bd2" id="Princess Warrior">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>184</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Princess Warrior</DisplayId>
+  </Object>
+
+  <Object type="0x4beb" id="Princess Warrior Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>184</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Who said that women can't fight?\n\nSkin Class: Warrior
+    </Description>
+    <Activate skinType="19410">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Princess Warrior Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bd3" id="Light Cavalry Warrior">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>185</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Light Cavalry Warrior</DisplayId>
+  </Object>
+
+  <Object type="0x4bec" id="Light Cavalry Warrior Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>185</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      A warrior and his loyal stead, charging fearlessly to their grave.\n\nSkin Class: Warrior
+    </Description>
+    <Activate skinType="19411">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Light Cavalry Warrior Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bd4" id="Clockwork Mystic">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>186</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Clockwork Mystic</DisplayId>
+  </Object>
+
+  <Object type="0x4bed" id="Clockwork Mystic Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>186</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Spin the turn key, and she'll be off on her merry way.\n\nSkin Class: Mystic
+    </Description>
+    <Activate skinType="19412">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Clockwork Mystic</DisplayId>
+  </Object>
+
+  <Object type="0x4bd5" id="Twilight Acolyte Rogue">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>187</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Twilight Acolyte Rogue</DisplayId>
+  </Object>
+
+  <Object type="0x4bee" id="Twilight Acolyte Rogue Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>187</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Shrouded in the shadows of twilight, these dual wielding rogues strike with deadly speed.\n\nSkin Class: Rogue
+    </Description>
+    <Activate skinType="19413">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Twilight Acolyte Rogue Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bd6" id="Ethereal Princess Archer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>188</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Ethereal Princess Archer</DisplayId>
+  </Object>
+
+  <Object type="0x4bef" id="Ethereal Princess Archer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>188</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Your cold ghastly hands are grasping out seeking salvation, or maybe you've just been at the keyboard too long.\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="19414">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Ethereal Princess Archer Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bd7" id="Antique Diver Knight">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>189</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Antique Diver Knight</DisplayId>
+  </Object>
+
+  <Object type="0x4bf0" id="Antique Diver Knight Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>189</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Explore the vast depths of the ocean a little less comfortably.\n\nSkin Class: Knight
+    </Description>
+    <Activate skinType="19415">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Antique Diver Knight Skin</DisplayId>
+  </Object>
+
+  <Object type="0x4bd8" id="Guerilla Archer">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>190</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x307</PlayerClassType>
+    <UnlockSpecial>Buy it</UnlockSpecial>
+    <DisplayId>Guerilla Archer</DisplayId>
+  </Object>
+
+  <Object type="0x4bf1" id="Guerilla Archer Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>190</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Real heroes don't die, they just reroll.\n\nSkin Class: Archer
+    </Description>
+    <Activate skinType="19416">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>5</BagType>
+    <Soulbound/>
+    <feedPower>2000</feedPower>
+    <DisplayId>Guerilla Archer Skin</DisplayId>
+  </Object>
+  
+  <Object type="0x4bd9" id="Ordinary Box Rogue">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>191</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <NoSkinSelect/>
+    <DisplayId>Ordinary Box Rogue</DisplayId>
+  </Object>
+  
+</Objects>

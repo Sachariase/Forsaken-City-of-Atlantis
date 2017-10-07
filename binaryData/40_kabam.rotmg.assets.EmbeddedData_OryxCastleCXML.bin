@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x0d70" id="Destructible Castle Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x23</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiEnvironment</File>
+            <Index>0x26</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/wooden_walls_death</DeathSound>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <BlocksSight/>
+      <DisplayId>{oryxCastle.Destructible_Castle_Wall}</DisplayId>
+   </Object>
+   <Object type="0x0d71" id="Suit of Armor">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x07</Index>
+      </Texture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Size>80</Size>
+      <StasisImmune/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{oryxCastle.Suit_of_Armor}</DisplayId>
+   </Object>
+   <Object type="0x0d72" id="Suit of Armor Sm">
+      <DisplayId>{oryxCastle.Suit_of_Armor_Sm}</DisplayId>
+      <Class>GameObject</Class>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>14</Index>
+      </AnimatedTexture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Size>120</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x0d73" id="CastleArch Wall Flame">
+      <DisplayId>{oryxCastle.CastleArch_Wall_Flame}</DisplayId>
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x5f</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x62</Index>
+         </Texture>
+      </Top>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x63</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x64</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0d74" id="CastleArch Wall">
+      <DisplayId>{oryxCastle.CastleArch_Wall}</DisplayId>
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x65</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x62</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0d75" id="Castle Wall Blank">
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x66</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x62</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+      <DisplayId>{oryxCastle.Castle_Wall_Blank}</DisplayId>
+   </Object>
+   <Object type="0x0d76" id="Castle Brick Wall2">
+      <DisplayId>{oryxCastle.Castle_Brick_Wall2}</DisplayId>
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x67</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x62</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0d77" id="Castle Brick Wall3">
+      <DisplayId>{oryxCastle.Castle_Brick_Wall3}</DisplayId>
+      <Class>Wall</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x68</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x62</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x0d78" id="Oryx Stone Guardian Right">
+      <DisplayId>{oryxCastle.Oryx_Stone_Guardian_Right}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <Quest/>
+      <Level>20</Level>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters</File>
+         <Index>20</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters</File>
+            <Index>21</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters</File>
+            <Index>22</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="3">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters</File>
+            <Index>23</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="4">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="5">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>1</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/stone_walls_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <MaxHitPoints>60000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Purple Blast</ObjectId>
+         <Speed>60</Speed>
+         <Damage>75</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Super Blast Purple</ObjectId>
+         <Speed>60</Speed>
+         <Damage>120</Damage>
+         <Size>140</Size>
+         <LifetimeMS>900</LifetimeMS>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Small White Blast</ObjectId>
+         <Speed>40</Speed>
+         <Damage>50</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Size>120</Size>
+      <Defense>100</Defense>
+      <XpMult>0.135</XpMult>
+   </Object>
+   <Object type="0x0d79" id="Oryx Stone Guardian Left">
+      <DisplayId>{oryxCastle.Oryx_Stone_Guardian_Left}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <Quest/>
+      <Level>20</Level>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>2</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>3</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>4</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="3">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>5</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="4">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>6</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="5">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>1</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/stone_walls_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <MaxHitPoints>60000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Red Blast</ObjectId>
+         <Speed>60</Speed>
+         <Damage>75</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Super Blast Red</ObjectId>
+         <Speed>60</Speed>
+         <Damage>120</Damage>
+         <Size>140</Size>
+         <LifetimeMS>900</LifetimeMS>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Small White Blast</ObjectId>
+         <Speed>40</Speed>
+         <Damage>50</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Size>120</Size>
+      <Defense>100</Defense>
+      <XpMult>0.135</XpMult>
+   </Object>
+   <Object type="0x0d7a" id="Oryx Guardian TaskMaster">
+      <Group>Oryx Minions</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/dwarves_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>0</Size>
+      <Defense>0</Defense>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{oryxCastle.Oryx_Guardian_TaskMaster}</DisplayId>
+   </Object>
+   <Object type="0x0d7b" id="Oryx's Chamber Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Oryx's Chamber</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <DisplayId>{oryxCastle.OryxAPOSs_Chamber_Portal}</DisplayId>
+   </Object>
+   <Object type="0x0d7c" id="Oryx Guardian Sword">
+      <DisplayId>{oryxCastle.Oryx_Guardian_Sword}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>16</Index>
+      </AnimatedTexture>
+      <HitSound>monster/ents_hit</HitSound>
+      <DeathSound>monster/traps_hit</DeathSound>
+      <MaxHitPoints>20000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Lightning Spiral</ObjectId>
+         <Speed>35</Speed>
+         <Damage>100</Damage>
+         <Size>120</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+      </Projectile>
+      <Size>120</Size>
+      <Defense>40</Defense>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x0d7d" id="Oryx Armor Spawner">
+      <Group>Oryx Minions</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/dwarves_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>0</Size>
+      <Defense>20</Defense>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{oryxCastle.Oryx_Armor_Spawner}</DisplayId>
+   </Object>
+   <Object type="0x0d7e" id="Oryx Suit of Armor">
+      <DisplayId>{oryxCastle.Oryx_Suit_of_Armor}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>11</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars8x8rEncounters</File>
+            <Index>12</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Armor Sword Attack</ObjectId>
+         <Speed>55</Speed>
+         <Damage>65</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Armor Creation</ObjectId>
+         <Speed>20</Speed>
+         <Damage>1</Damage>
+         <Size>120</Size>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <Size>120</Size>
+      <Defense>20</Defense>
+      <XpMult>0.0</XpMult>
+   </Object>
+   <Object type="0x0d7f" id="Oryx Insect Commander">
+      <DisplayId>{oryxCastle.Oryx_Insect_Commander}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>7</Index>
+      </AnimatedTexture>
+      <HitSound>monster/medusa_hit</HitSound>
+      <DeathSound>monster/snake_queen_death</DeathSound>
+      <MaxHitPoints>3500</MaxHitPoints>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>Oryx Knight Swipe</ObjectId>
+         <Speed>65</Speed>
+         <Damage>65</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Size>120</Size>
+      <Defense>30</Defense>
+   </Object>
+   <Object type="0x0d80" id="Oryx Insect Minion">
+      <DisplayId>{oryxCastle.Oryx_Insect_Minion}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>14</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars8x8rEncounters</File>
+            <Index>14</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>chars8x8rEncounters</File>
+            <Index>15</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/snake_queen_hit</HitSound>
+      <DeathSound>monster/snakes_hit</DeathSound>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>Oryx Insect Sting</ObjectId>
+         <Speed>65</Speed>
+         <Damage>55</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Oryx Insect Sting Status</ObjectId>
+         <Speed>50</Speed>
+         <Damage>60</Damage>
+         <Size>120</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Size>100</Size>
+      <Defense>10</Defense>
+      <XpMult>0.2</XpMult>
+   </Object>
+   <Object type="0x0d81" id="Oryx Eye Warrior">
+      <DisplayId>{oryxCastle.Oryx_Eye_Warrior}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>18</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/trees_hit</DeathSound>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Oryx Eye Warrior Swipe</ObjectId>
+         <Speed>40</Speed>
+         <Damage>60</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Oryx Knight Blast Sm</ObjectId>
+         <Speed>70</Speed>
+         <Damage>45</Damage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Size>100</Size>
+      <Defense>20</Defense>
+      <XpMult>0</XpMult>
+   </Object>
+   <Object type="0x0d82" id="Oryx Brute">
+      <DisplayId>{oryxCastle.Oryx_Brute}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>8</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16dEncounters2</File>
+            <Index>9</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/ogres_hit</HitSound>
+      <DeathSound>monster/ogres_death</DeathSound>
+      <MaxHitPoints>7000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Oryx Brute Rush</ObjectId>
+         <Speed>45</Speed>
+         <Damage>65</Damage>
+         <Size>200</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+         <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Oryx Brute Line</ObjectId>
+         <Speed>65</Speed>
+         <Damage>55</Damage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Oryx Knight Blast Sm</ObjectId>
+         <Speed>35</Speed>
+         <Damage>60</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Size>100</Size>
+      <Defense>30</Defense>
+      <XpMult>1.6</XpMult>
+   </Object>
+   <Object type="0x0d83" id="Oryx Knight">
+      <DisplayId>{oryxCastle.Oryx_Knight}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>16</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dwarves_hit</HitSound>
+      <DeathSound>monster/dragons_hit</DeathSound>
+      <MaxHitPoints>2500</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Oryx Knight Swipe Spin</ObjectId>
+         <Speed>65</Speed>
+         <Damage>55</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Oryx Bubble</ObjectId>
+         <Speed>0.02</Speed>
+         <Damage>100</Damage>
+         <Size>160</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Oryx Knight Blast Sm</ObjectId>
+         <Speed>35</Speed>
+         <Damage>60</Damage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Oryx Knight Line</ObjectId>
+         <Speed>55</Speed>
+         <Damage>55</Damage>
+         <Size>80</Size>
+         <LifetimeMS>1200</LifetimeMS>
+      </Projectile>
+      <Size>100</Size>
+      <Defense>20</Defense>
+   </Object>
+   <Object type="0x0d84" id="Oryx Pet">
+      <DisplayId>{oryxCastle.Oryx_Pet}</DisplayId>
+      <Group>Oryx Minions</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>17</Index>
+      </AnimatedTexture>
+      <HitSound>monster/night_elves_hit</HitSound>
+      <DeathSound>monster/medusa_hit</DeathSound>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Pet Bubble</ObjectId>
+         <Speed>0.02</Speed>
+         <Damage>60</Damage>
+         <Size>80</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Size>100</Size>
+      <Defense>15</Defense>
+      <XpMult>0.2</XpMult>
+   </Object>
+   <Object type="0x0d85" id="Oryx's Living Floor Fire Down">
+      <DisplayId>{oryxCastle.OryxAPOSs_Living_Floor_Fire_Down}</DisplayId>
+      <Group>Oryx's Minions</Group>
+      <Class>GameObject</Class>
+      <Enemy/>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>2600</MaxHitPoints>
+      <DrawOnGround/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1e</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1f</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Mute Spell</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="5">Quiet</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x0d86" id="Quiet Bomb">
+      <Group>Oryx's Minions</Group>
+      <Class>Character</Class>
+      <StasisImmune/>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>100</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>90</Size>
+      <Defense>0</Defense>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x22</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x23</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x24</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skull_shrine_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Mute Spell</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="5">Quiet</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <DisplayId>{oryxCastle.Quiet_Bomb}</DisplayId>
+   </Object>
+   <Object type="0x0d87" id="Oryx's Living Floor">
+      <Group>Oryx's Minions</Group>
+      <Class>GameObject</Class>
+      <Enemy/>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>2600</MaxHitPoints>
+      <DrawOnGround/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1e</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1f</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Mute Spell</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="5">Quiet</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <DisplayId>{oryxCastle.OryxAPOSs_Living_Floor}</DisplayId>
+   </Object>
+   
+   
+  
+  <Ground type="0x6110" id="01BlueMid" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xce</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6111" id="02BlueBridge" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xd0</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6112" id="03BlueMid" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xd1</Index>
+    </Texture>
+  </Ground>
+
+  <Object type="0x6113" id="04BlueWall" ext="true">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xd2</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xd6</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+
+  <Ground type="0x6114" id="05BlueMid2" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xd3</Index>
+    </Texture>
+  </Ground>
+  
+  <Ground type="0x6501" id="001 DarkLightDot" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xdc</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6502" id="002 Dark" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xdd</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6503" id="003 Light" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xde</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6504" id="004 DarkDot" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe0</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6505" id="005 LightDot" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe1</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6506" id="006 LightDarkDot" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe2</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6507" id="007 DarkLight" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe3</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x6508" id="008 LightDark" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe4</Index>
+    </Texture>
+  </Ground>
+
+  <Object type="0x6601" id="0001 BlackGray" ext="true">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe5</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xe5</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+
+  <Object type="0x6602" id="0002 Black" ext="true">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe6</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xe6</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+
+  <Object type="0x6603" id="0003 DarkGray" ext="true">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe7</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xe7</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+
+  <Object type="0x6604" id="0004 Dark" ext="true">
+    <Class>Wall</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xe8</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>lofiObj5</File>
+        <Index>0xe8</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static/>
+    <FullOccupy/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+    <BlocksSight/>
+  </Object>
+  
+  
+  
+  
+  <Object type="0x10F" id="50 Fame" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x88</Index>
+      </Texture>
+    <SlotType>10</SlotType>
+    <Description>When consumed, gives fame.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="50">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  
+  <Object type="0x115" id="100 Fame" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x89</Index>
+      </Texture>
+    <SlotType>10</SlotType>
+    <Description>When consumed, gives fame.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="100">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  
+  <Object type="0x116" id="500 Fame" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8a</Index>
+      </Texture>
+    <SlotType>10</SlotType>
+    <Description>When consumed, gives fame.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="500">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  
+  <Object type="0x117" id="1000 Fame" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8b</Index>
+      </Texture>
+    <SlotType>10</SlotType>
+    <Description>When consumed, gives fame.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="1000">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  
+  <Object type="0x118" id="5000 Fame" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8c</Index>
+      </Texture>
+    <SlotType>10</SlotType>
+    <Description>When consumed, gives fame.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="5000">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  
+  
+  <Object type="0x6018" id="Captain America Armor" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8d</Index>
+      </Texture>
+    <SlotType>7</SlotType>
+    <Description>Captain America Armor</Description>
+    <ActivateOnEquip stat="21" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <FameBonus>4</FameBonus>
+    <feedPower>0</feedPower>
+    <DisplayId>Captain America Armor</DisplayId>
+  </Object>
+  
+  <Object type="0x6017" id="Captain America Sword" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8e</Index>
+      </Texture>
+    <SlotType>1</SlotType>
+    <Description>Captain Frickin' America Baby!</Description>
+    <RateOfFire>0.8</RateOfFire>
+    <OldSound>weapon/mithril_sword</OldSound>
+    <Projectile>
+      <ObjectId>Captain America Projectile</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>800</LifetimeMS>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <Boomerang />
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <FameBonus>6</FameBonus>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>0</feedPower>
+    <DisplayId>Captain America Sword</DisplayId>
+  </Object>
+  
+  <Object type="0x6020" id="Captain America Seal" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x99</Index>
+      </Texture>
+    <SlotType>12</SlotType>
+    <Description>The primary defensive and offensive piece of equipment used by Captain America</Description>
+    <Sound>spell/light_heal</Sound>
+    <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>100</MpCost>
+    <Activate effect="Armored" duration="3" range="6" useWisMod="true">ConditionEffectAura</Activate>
+    <Activate effect="Damaging" duration="5" range="6" useWisMod="true">ConditionEffectAura</Activate>
+    <Cooldown>6</Cooldown>
+    <feedPower>0</feedPower>
+    <DisplayId>Captain America Seal</DisplayId>
+  </Object>
+  
+  <Object type="0x6037" id="Captain America Projectile" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x98</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+  </Object>
+  
+  <Object type="0x6100" id="Captain America Projectile 2" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xcd</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+  </Object>
+  
+  <Object type="0x6101" id="Captain America Staff" ext="true">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xcc</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Captain Frickin' America Baby!</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Captain America Projectile 2</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>90</MinDamage>
+         <MaxDamage>170</MaxDamage>
+         <Boomerang />
+         <MultiHit />
+         <ArmorPiercing />
+         <LifetimeMS>956</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>450</feedPower>
+      <DisplayId>Captain America Staff</DisplayId>
+   </Object>
+
+  <Object type="0x6118" id="Captain America Spell" ext="true">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xd4</Index>
+    </Texture>
+    <SlotType>11</SlotType>
+    <Tier>6</Tier>
+    <Description>The primary defensive and offensive piece of equipment used by Captain America</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>Captain America Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>230</MaxDamage>
+      <Boomerang />
+      <MultiHit />
+      <ArmorPiercing />
+      <LifetimeMS>1778</LifetimeMS>
+    </Projectile>
+    <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="10">IncrementStat</ActivateOnEquip>
+    <Usable/>
+    <BagType>6</BagType>
+    <FameBonus>4</FameBonus>
+    <MpCost>80</MpCost>
+    <Activate>BulletNova</Activate>
+    <feedPower>380</feedPower>
+    <DisplayId>Captain America Spell</DisplayId>
+  </Object>
+  
+  
+  
+  <Object type="0x7052" id="Boshy Gun" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9b</Index>
+      </Texture>
+    <SlotType>3</SlotType>
+    <Description>It was Boshy Time</Description>
+    <RateOfFire>0.5</RateOfFire>
+    <OldSound>weapon/boshy_gun</OldSound>
+    <Projectile>
+      <ObjectId>BoshyProj</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>40</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NumProjectiles>5</NumProjectiles>
+    <ArcGap>5</ArcGap>
+    <BagType>6</BagType>
+    <FameBonus>5</FameBonus>
+    <feedPower>0</feedPower>
+    <Soulbound />
+    <DisplayId>Boshy Gun</DisplayId>
+  </Object>
+  
+  <Object type="0x12A" id="BoshyProj" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9a</Index>
+      </Texture>
+  </Object>
+  
+  
+  <Object type="0x771B" id="Unholy Arrow" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9e</Index>
+      </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  
+  <Object type="0x770A" id="Unholy Bow" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa8</Index>
+      </Texture>
+    <SlotType>3</SlotType>
+    <Description>Enchanted with evil, bound in sorcery, and curse are those who use it.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/double_bow</Sound>
+    <Projectile>
+      <ObjectId>Unholy Arrow</ObjectId>
+      <Speed>125</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <LifetimeMS>470</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <NumProjectiles>2</NumProjectiles>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>0</feedPower>
+    <DisplayId>Curse of the Unholy Bow</DisplayId>
+  </Object>
+  
+  <Object type="0x773E" id="Unholy Cloak" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xab</Index>
+      </Texture>
+    <SlotType>13</SlotType>
+    <Description>Skilled and deadly rogue thiefs, would be sent to infiltrate enemy headquarters and recover information on planned attacks, these unholy cloaks served well in these times.</Description>
+    <Sound>spell/fire_nova</Sound>
+    <ActivateOnEquip stat="22" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="28" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>120</MpCost>
+    <Activate effect="Invisible" duration="6">ConditionEffectSelf</Activate>
+    <Activate effect="Speedy" duration="2">ConditionEffectSelf</Activate>
+    <Activate maxDistance="10">Teleport</Activate>
+    <Cooldown>6.5</Cooldown>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Cloak</DisplayId>
+  </Object>
+  
+  <Object type="0x771D" id="Unholy Dagger Proj" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9c</Index>
+      </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  
+  <Object type="0x770C" id="Unholy Dagger" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9d</Index>
+      </Texture>
+    <SlotType>2</SlotType>
+    <Description>A true Unholy Dagger, used for many sacrifices to the Dark Lords of the Realm.</Description>
+    <RateOfFire>1.2</RateOfFire>
+    <Sound>weapon/dirk</Sound>
+    <Projectile>
+      <ObjectId>Unholy Dagger Proj</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>180</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Amplitude>0.15</Amplitude>
+      <Frequency>0.15</Frequency>
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>daggerSwing</OldSound>
+    <FameBonus>4</FameBonus>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Dagger</DisplayId>
+  </Object>
+  
+  <Object type="0x773B" id="Unholy Helm" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa9</Index>
+      </Texture>
+    <SlotType>16</SlotType>
+    <Description>Undead soldiers, summoned to fight the great battle, would wear impenetrable helms..</Description>
+    <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>4</FameBonus>
+    <MpCost>120</MpCost>
+    <Activate effect="Berserk" duration="6" range="4">ConditionEffectAura</Activate>
+    <Activate effect="Speedy" duration="6" range="4">ConditionEffectAura</Activate>
+    <Activate effect="Invulnerable" duration="1.5" range="4">ConditionEffectAura</Activate>
+    <Cooldown>7</Cooldown>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Helm</DisplayId>
+  </Object>
+  
+  <Object type="0x770E" id="Unholy Poison" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xac</Index>
+      </Texture>
+    <SlotType>18</SlotType>
+    <Description>A dark brotherhood, a dark past, and an even darker secret, poisons, potions, spells, and this is only what you see...</Description>
+    <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>4</BagType>
+    <FameBonus>4</FameBonus>
+    <MpCost>110</MpCost>
+    <Activate radius="5" totalDamage="950" duration="8">PoisonGrenade</Activate>
+    <ConditionEffect duration="4">Slowed</ConditionEffect>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Poison</DisplayId>
+  </Object>
+  
+  <Object type="0x772D" id="Unholy Prism" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xbc</Index>
+      </Texture>
+    <SlotType>22</SlotType>
+    <Description>Tricky situations called for tricky maneuvers when the Unholy battle begun, untrained enemy were quickly put to death.</Description>
+    <ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>95</MpCost>
+    <Activate duration="5">Decoy</Activate>
+    <Activate duration="5" angleOffset="180">Decoy</Activate>
+    <Activate effect="Invisible" duration="5">ConditionEffectSelf</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Prism</DisplayId>
+  </Object>
+  
+  <Object type="0x772F" id="Unholy Quiver" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xae</Index>
+      </Texture>
+    <SlotType>15</SlotType>
+    <Description>Hordes of Unholy archers came in the thousands, destroying all from a distance with poisoned arrows</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Unholy Arrow</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>375</MinDamage>
+      <MaxDamage>425</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>150</Size>
+      <ConditionEffect duration="7">Paralyzed</ConditionEffect>
+      <ConditionEffect duration="7">Curse</ConditionEffect>
+      <ParticleTrail />
+    </Projectile>
+    <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>120</MpCost>
+    <Activate>Shoot</Activate>
+    <Cooldown>6</Cooldown>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Quiver</DisplayId>
+  </Object>
+  
+  <Object type="0x773A" id="Unholy Seal" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc8</Index>
+      </Texture>
+    <SlotType>12</SlotType>
+    <Description>A seal that summons power from the undead</Description>
+    <Sound>spell/light_heal</Sound>
+    <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>120</MpCost>
+    <Activate stat="21" amount="60" duration="3" range="4" noStack="true" useWisMod="true">StatBoostAura</Activate>
+    <Activate effect="Healing" duration="2.5" range="4" useWisMod="true">ConditionEffectAura</Activate>
+    <Activate effect="Damaging" duration="3" range="4" useWisMod="true">ConditionEffectAura</Activate>
+    <Activate effect="Invulnerable" duration="1.3" range="4" useWisMod="true">ConditionEffectSelf</Activate>
+    <Cooldown>5</Cooldown>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Seal</DisplayId>
+  </Object>
+  
+  <Object type="0x772C" id="Unholy Shield Proj" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc9</Index>
+      </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Size>70</Size>
+  </Object>
+  
+  <Object type="0x772B" id="Unholy Shield" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xad</Index>
+      </Texture>
+    <SlotType>5</SlotType>
+    <Description>When the unholy army rose, shields gave them dark, almighty strength and power</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Unholy Shield Proj</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>280</MinDamage>
+      <MaxDamage>360</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+      <ParticleTrail />
+    </Projectile>
+    <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="50">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>100</MpCost>
+    <Activate>Shoot</Activate>
+    <NumProjectiles>15</NumProjectiles>
+    <ArcGap>23</ArcGap>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Shield</DisplayId>
+  </Object>
+  
+  <Object type="0x773D" id="Unholy Short Sword Proj" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xba</Index>
+      </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Size>70</Size>
+  </Object>
+  
+  <Object type="0x773C" id="Unholy Short Sword" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xbb</Index>
+      </Texture>
+    <SlotType>1</SlotType>
+    <Description>Short swords used by undead soldiers, were high in numbers, and were often thrown, impaling enemies all across the battlefield</Description>
+    <RateOfFire>0.8</RateOfFire>
+    <Sound>weapon/mithril_sword</Sound>
+    <Projectile>
+      <ObjectId>Unholy Short Sword Proj</ObjectId>
+      <Speed>80</Speed>
+      <MinDamage>280</MinDamage>
+      <MaxDamage>350</MaxDamage>
+      <LifetimeMS>630</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <BagType>6</BagType>
+    <FameBonus>4</FameBonus>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Short Sword</DisplayId>
+  </Object>
+  
+  <Object type="0x6119" id="Unholy Spell" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb8</Index>
+      </Texture>
+    <SlotType>11</SlotType>
+    <Description>Spell of the Unholy</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>Souls1</ObjectId>
+      <Speed>70</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+    </Projectile>
+    <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>100</MpCost>
+    <Activate>BulletNova</Activate>
+    <Activate radius="4" totalDamage="100">VampireBlast</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Spell</DisplayId>
+  </Object>
+  
+  <Object type="0x771E" id="Unholy Staff Proj" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xca</Index>
+      </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Size>70</Size>
+  </Object>
+  
+  <Object type="0x770D" id="Unholy Staff" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xcb</Index>
+      </Texture>
+    <SlotType>17</SlotType>
+    <Description>A staff which feels forever cold to the touch, it has a dark presence that can not be denied.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/wand_of_death</Sound>
+    <Projectile>
+      <ObjectId>Unholy Staff Proj</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <BagType>4</BagType>
+    <FameBonus>4</FameBonus>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>0</feedPower>
+    <DisplayId>Staff of the Unholy Church</DisplayId>
+  </Object>
+  
+  <Object type="0x772E" id="Unholy Tome" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb9</Index>
+      </Texture>
+    <SlotType>4</SlotType>
+    <Description>An Unholy Brotherhood, Satanic rituals, sacrifice...</Description>
+    <Sound>spell/major_heal</Sound>
+    <ActivateOnEquip stat="26" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>125</MpCost>
+    <Activate amount="300" range="7" useWisMod="true">HealNova</Activate>
+    <Activate range="4" effect="Speedy" checkExistingEffect="Hexed">ClearConditionEffectAura</Activate>
+    <Activate range="4">RemoveNegativeConditions</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Unholy Tome</DisplayId>
+  </Object>
+  
+  <Object type="0x363" id="Unholy Wand" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xbe</Index>
+      </Texture>
+    <SlotType>8</SlotType>
+    <Description>Decrepit wands used by undead mages, used to summon eldritch terrors from the far corners of hell to lay waste to all that stood in their way Thanks to Pringle/Turtlebat.</Description>
+    <RateOfFire>0.5</RateOfFire>
+    <Sound>weapon/fire_wand</Sound>
+    <Projectile>
+      <ObjectId>Unholy Wand Proj</ObjectId>
+      <Speed>40</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>2.4</Amplitude>
+      <Frequency>3.4</Frequency>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>20</ArcGap>
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <DisplayId>Unholy Wand</DisplayId>
+  </Object>
+  
+  <Object type="0x364" id="Unholy Wand Proj" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xbd</Index>
+      </Texture>
+  </Object>
+  
+  
+  <Object type="0x6034" id="War Hammer" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xaa</Index>
+      </Texture>
+    <SlotType>1</SlotType>
+    <Description>Depicted in Norse mythology as one of the most fearsome weapons, capable of leveling mountains.</Description>
+    <RateOfFire>0.4</RateOfFire>
+    <OldSound>daggerSwing</OldSound>
+    <Projectile>
+      <ObjectId>Hammer</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>880</LifetimeMS>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <FameBonus>6</FameBonus>
+    <OldSound>daggerSwing</OldSound>
+    <feedPower>0</feedPower>
+    <DisplayId>War Hammer</DisplayId>
+  </Object>
+  
+  <Object type="0x6040" id="Hammer" ext="true">
+    <Class>Projectile</Class>
+    <Texture>
+         <File>lofiObj5</File>
+         <Index>0xaa</Index>
+      </Texture>
+    <Rotation>60</Rotation>
+  </Object>
+  
+  
+  
+  
+  <Object type="0x7204" id="00001 Golden Oryx Statue" ext="true">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiCharBig</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <Static/>
+    <Size>200</Size>
+    <OccupySquare/>
+  </Object>
+  
+  <Object type="0x7205" id="00002 White Pillar" ext="true">
+    <Class>GameObject</Class>
+    <Model>Pillar</Model>
+    <Texture>
+      <File>lofiCharBig</File>
+      <Index>0x0d</Index>
+    </Texture>
+    <Static/>
+    <OccupySquare/>
+    <EnemyOccupySquare/>
+  </Object>
+
+  <Object type="0x7206" id="00003 Bush with pink shit in it" ext="true">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiCharBig</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <ShadowSize>75</ShadowSize>
+    <Static/>
+  </Object>
+
+  <Object type="0x7207" id="00004 Bush with like white shit in it" ext="true">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiCharBig</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <ShadowSize>75</ShadowSize>
+    <Static/>
+  </Object>
+  
+  
+  <Ground type="0x7200" id="00001 Vine1" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf2</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x7201" id="00002 Vine2" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf3</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x7202" id="00003 White1" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf4</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x7203" id="00004 White2" ext="true">
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf5</Index>
+    </Texture>
+  </Ground>
+</Objects>
